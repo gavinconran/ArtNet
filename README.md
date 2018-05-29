@@ -1,4 +1,5 @@
 # ArtNet
+## Creating a model using TensorFlow
 This repository contains the paper "ArtNet:An Art Image Classifier fine-tuned from pre-trained Convolutional Neural Networks" and supporting code.
 
 To replicate the best performing model, as described in the paper, you must first install TensorFlow, preferably in a virtual environment [https://www.tensorflow.org/install/install_linux]. 
@@ -15,7 +16,7 @@ Training and validation progress can be visualised by using tensorboard by execu
 
 (tensorflow) $ tensorboard --logdir=./models
 
-# Extending TensorFlow by creating a new Op
+## Extending TensorFlow by creating a new Op
 As a pedagogical exercise I added a new Op, called CopyOfInputOp, by following the instructions in [https://www.tensorflow.org/extend/adding_an_op]. The new op is a very simple operation that just returns the input. The files can be found in the directory CopyOfInputOp. The source code must be compiled on your own machine and can be done by executing the following script in the CopyOfInputOp directory:
 
 (tensorflow) $  compileCopyOfInputOp.sh
