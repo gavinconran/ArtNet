@@ -16,9 +16,11 @@ Training and validation progress can be visualised by using tensorboard by execu
 (tensorflow) $ tensorboard --logdir=./models
 
 # New Op
-As a pedagogical exercise I added a new Op, called CopyOfInputOp, by following the instructions in [https://www.tensorflow.org/extend/adding_an_op]. The new op very simple operation that just returns the input. The files can be found in the directory CopyOfInputOp. The source code must be compiled on your own machine.
+As a pedagogical exercise I added a new Op, called CopyOfInputOp, by following the instructions in [https://www.tensorflow.org/extend/adding_an_op]. The new op is a very simple operation that just returns the input. The files can be found in the directory CopyOfInputOp. The source code must be compiled on your own machine and can be done by executing the following script in the CopyOfInputOp directory:
 
-To create a model using this new Op, run the shell script:
+(tensorflow) $  compileCopyOfInputOp.sh
+
+To create an ArtNet model using this new Op, run the shell script:
 
 (tensorflow) $ ./retrainHub_CopyOfInputOp_InceptionV4.sh
 
