@@ -144,6 +144,35 @@ CHECKPOINT_NAME = '/tmp/_retrain_checkpoint'
 FAKE_QUANT_OPS = ('FakeQuantWithMinMaxVars',
                   'FakeQuantWithMinMaxVarsPerChannel')
 
+#####################################################################
+# create copy_of_input_module
+copy_of_input_module = tf.load_op_library('./CopyOfInputOp/copy_of_input.so')
+
+# register CopyOfInput gradient op
+from tensorflow.python.framework import ops
+from tensorflow.python.ops import array_ops
+from tensorflow.python.ops import sparse_ops
+
+@ops.RegisterGradient("CopyOfInput")
+def _zero_out_grad(op, grad):
+  """The gradients for `copy_of_input`.
+
+  Args:
+    op: The `copy_of_input` `Operation` that we are differentiating, which we can use
+      to find the inputs and outputs of the original op.
+    grad: Gradient with respect to the output of the `copy_of_input` op.
+
+  Returns:
+    Gradients with respect to the input of `copy_of_input`.
+  """
+  copy_of_input = op.inputs[0]
+  shape = array_ops.shape(copy_of_input)
+  index = array_ops.zeros_like(shape)
+  first_grad = array_ops.reshape(grad, [-1])[0]
+  copy_of_input_grad = sparse_ops.sparse_to_dense([index], shape, first_grad, 0)
+  return [copy_of_input_grad]  # List of one Tensor, since we have one input
+
+########################################################################
 
 def create_image_lists(image_dir, testing_percentage, validation_percentage):
   """Builds a list of training images from the file system.
@@ -765,9 +794,18 @@ def add_final_retrain_ops(class_count, final_tensor_name, bottleneck_tensor,
       variable_summaries(layer_biases)
 
     with tf.name_scope('Wx_plus_b'):
-      # CANDIDATE FOR TF EXTENSION (Wx + b)
-      logits = tf.matmul(bottleneck_input, layer_weights) + layer_biases
+      print("input: ", bottleneck_input.shape)
+      print("weights: ", layer_weights.shape)
+      print("biases: ", layer_biases.shape)
+
+      # CopyOfInput
+      # Not every operation in TensorFlow has a gradient defined. 
+      # Often this is because these operations are not used during training loops and instead are used for preprocessing. 
+      # For the case of Zero Out we have to register a gradient op which was done earlier in the script.
+
+      logits = tf.matmul(bottleneck_input, layer_weights) + copy_of_input_module.copy_of_input(layer_biases)
       tf.summary.histogram('pre_activations', logits)
+      print("logits: ", logits.shape)
 
   final_tensor = tf.nn.softmax(logits, name=final_tensor_name)
 
