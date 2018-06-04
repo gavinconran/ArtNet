@@ -18,8 +18,8 @@ Training and validation progress can be visualised by using tensorboard by execu
 
 ## Deploy a Model Server using TensorFlow
 To setup a Model Server I refer the reader to the online tutorial [https://www.tensorflow.org/serving/setup]. It is possible to intall the prerequisites using two options:
-- by pip    (install pre-compiled binaries)
-- by bazel  (compile from source)
+1. by pip    (install pre-compiled binaries)
+2. by bazel  (compile from source)
 
 The following instructions will use pip.
 
@@ -51,13 +51,12 @@ Training and validation progress can be visualised by using tensorboard by execu
 ### Note:
 When running ArtNet_Classification.ipynb with the ArtNet model created with the new op, the following lines of code must be included in the notebook:
 
-'''
+```python
 model_file = "../models/CopyOfInputOp/output_graph.pb"
-
 label_file = "../models/CopyOfInputOp/output_labels.txt"
-
 tf.load_op_library('../CopyOfInputOp/copy_of_input.so')
-'''
+```
+
 
 
 
