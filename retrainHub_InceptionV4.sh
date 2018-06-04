@@ -16,7 +16,9 @@ python retrain.py \
 --model_dir=./models/imagenet \
 --bottleneck_dir=./models/bottleneck \
 --final_tensor_name=final_result \
+--saved_model_dir=./models/$(date +%s)/ \
 --tfhub_module https://tfhub.dev/google/imagenet/resnet_v2_50/feature_vector/1
+
 
 
 
