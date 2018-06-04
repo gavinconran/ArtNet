@@ -49,8 +49,10 @@ Training and validation progress can be visualised by using tensorboard by execu
 (tensorflow) $ tensorboard --logdir=./models/CopyOfInputOp
 
 ### Note:
-When running ArtNet_Classification.ipynb with the ArtNet model created with the new op, the following line of code must be included in the notebook:
+When running ArtNet_Classification.ipynb with the ArtNet model created with the new op, the following lines of code must be included in the notebook:
 
+model_file = "../models/CopyOfInputOp/output_graph.pb"
+label_file = "../models/CopyOfInputOp/output_labels.txt"
 tf.load_op_library('../CopyOfInputOp/copy_of_input.so')
 
 
