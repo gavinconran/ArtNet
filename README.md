@@ -27,9 +27,9 @@ To start the server execute the following command at the command line:
 ```
 (tensorflow) $ tensorflow_model_server --port=9000 --model_name=artnet --model_base_path=/path/to/model/
 ```
-N.B.: /path/to/server/ is the absolute path to the model directory (which in my case is the models directory, as above)
+N.B.: /path/to/model/ is the absolute path to the model directory (which in my case is the models directory, as above)
 
-I have provided a script, ArtNet_Client.py, for users to test the ArtNet server. It can be found in the directory ArtNet_Clients. To opearte:
+I have provided a script, ArtNet_Client.py, for users to test the ArtNet server. It can be found in the directory ArtNet_Clients. To operate:
 ```
 (tensorflow) $ python ArtNet_Client.py --server=localhost:9000 \
 --image=./dataPaperTest/1454_VirginAndChild_Rogier_van_der_Weyden.jpeg 
