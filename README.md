@@ -53,7 +53,9 @@ When running ArtNet_Classification.ipynb with the ArtNet model created with the 
 
 '''
 model_file = "../models/CopyOfInputOp/output_graph.pb"
+
 label_file = "../models/CopyOfInputOp/output_labels.txt"
+
 tf.load_op_library('../CopyOfInputOp/copy_of_input.so')
 '''
 
