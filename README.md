@@ -36,11 +36,11 @@ I have provided a script, ArtNet_Client.py, for users to test the ArtNet server.
 ## Extend TensorFlow by creating a new Op
 As a pedagogical exercise I added a new Op, called CopyOfInputOp, by following the instructions in [https://www.tensorflow.org/extend/adding_an_op]. The new op is a very simple operation that just returns the input. The files can be found in the directory CopyOfInputOp. The source code must be compiled on your own machine and can be done by executing the following script in the CopyOfInputOp directory:
 
-(tensorflow) $  compileCopyOfInputOp.sh
+(tensorflow) $  ./compileCopyOfInputOp.sh
 
 To create an ArtNet model using this new Op, run the shell script:
 
-(tensorflow) $ ./retrainHub_CopyOfInputOp_InceptionV4.sh
+(tensorflow) $ ./retrainHub_InceptionV4_CopyOfInputOp.sh
 
 at the command line, which in turn calls the python program, retrainWithCopyOfInputOp.py. 
 
@@ -51,7 +51,7 @@ Training and validation progress can be visualised by using tensorboard by execu
 ### Note:
 When running ArtNet_Classification.ipynb with the ArtNet model created with the new op, the following line of code must be included in the notebook:
 
-tf.load_op_library('./CopyOfInputOp/copy_of_input.so')
+tf.load_op_library('../CopyOfInputOp/copy_of_input.so')
 
 
 
