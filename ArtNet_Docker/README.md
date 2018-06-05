@@ -6,7 +6,7 @@ The instructions are partly derived from [https://www.tensorflow.org/serving/ser
 ```
 mkdir artnet
 cd artnet
-docker build --pull -t $USER/tensorflow-serving-devel -f /home/gavin/ResearchProject/Engineering/serving/tensorflow_serving/tools/docker/Dockerfile.devel .
+docker build --pull -t $USER/tensorflow-serving-devel -f /path/to/ArtNet/ArtNet_Docker/Dockerfile.devel .
 docker run --name=artnet_container -it $USER/tensorflow-serving-devel
 ```
 
