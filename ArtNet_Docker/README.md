@@ -1,8 +1,8 @@
-# Instructions for building artnet artnet_container and the artnet_serving image
-The instructions are partly derived from [https://www.tensorflow.org/serving/serving_inception]
+# Instructions for building artnet_serving image
+The instructions are partly derived from [https://www.tensorflow.org/serving/serving_inception].
 
 
-## Run tensorflow-serving-devel container
+## Create tensorflow-serving-devel container
 ```
 mkdir artnet
 cd artnet
@@ -10,13 +10,13 @@ docker build --pull -t $USER/tensorflow-serving-devel -f /home/gavin/ResearchPro
 docker run --name=artnet_container -it $USER/tensorflow-serving-devel
 ```
 
-## Inside container, 
-### install the tensorflow-serving-api PIP package using:
+## From inside the container: 
+1) install the tensorflow-serving-api PIP package using:
 ```
 pip install tensorflow-serving-api
 ```
  
-### install the ModelServer
+2) install the ModelServer
 Add TensorFlow Serving distribution URI as a package source (one time setup):
 ```
 echo "deb [arch=amd64] http://storage.googleapis.com/tensorflow-serving-apt stable tensorflow-model-server tensorflow-model-server-universal" | tee /etc/apt/sources.list.d/tensorflow-serving.list
@@ -24,7 +24,7 @@ echo "deb [arch=amd64] http://storage.googleapis.com/tensorflow-serving-apt stab
 curl https://storage.googleapis.com/tensorflow-serving-apt/tensorflow-serving.release.pub.gpg | apt-key add -
 ```
 
-### Run these commands to overcome missing libraries issue:
+3) Run these commands to overcome missing libraries issue:
 ```
 add-apt-repository ppa:ubuntu-toolchain-r/test 
 apt-get update
@@ -32,18 +32,17 @@ apt-get upgrade
 apt-get dist-upgrade
 ```
 
-### Install tensorflow_hub
+4) Install tensorflow_hub
 ```
-#pip install ipykernel
 pip install tensorflow_hub
 ```
 
-### Install and update TensorFlow ModelServer
+5) Install and update TensorFlow ModelServer
 ```
 apt-get update && apt-get install tensorflow-model-server
 ```
 
-### Download from github and create ArtNet model
+6) Download from github and create ArtNet model
 ```
 git clone https://github.com/gavinconran/ArtNet.git
 cd ArtNet
@@ -52,8 +51,8 @@ cd ArtNet
 [Ctrl-p] + [Ctrl-q]
 ```
 
-## Outside Container
-### Commit image for deployment
+## From Outside Container
+1) Commit image for deployment
 Note that we detach from the container at the end of above instructions instead of terminating it, 
 as we want to commit all changes to a new image $USER/artnet_serving for Kubernetes deployment.
 ```
@@ -61,20 +60,18 @@ docker commit artnet_container $USER/artnet_serving
 docker stop artnet_container
 ```
 
-## Run in local Docker container
-Let's test the serving workflow locally using the built image.
+2) Let's test the serving workflow locally using the built image.
 ```
 docker run -it $USER/artnet_serving
 ```
 
-## Inside Container
-### Start the server
-Run the gRPC tensorflow_model_server in the container.
+## From inside Container
+1) Run the gRPC tensorflow_model_server in the container.
 ```
 tensorflow_model_server --port=9000 --model_name=artnet --model_base_path=/ArtNet/models &> artnet_log &
 ```
 
-### Query the server
+2) Query the server
 ```
 cd /ArtNet/ArtNet_Clients
 python ArtNet_Client.py --server=localhost:9000 \
