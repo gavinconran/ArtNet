@@ -37,7 +37,7 @@ I have provided a script, ArtNet_Client.py, for users to test the ArtNet server.
 --image=./dataPaperTest/1454_VirginAndChild_Rogier_van_der_Weyden.jpeg 
 ```
 
-## Deploy a ArtNet Server using TensorFlow in a Docker Container
+## Deploy the ArtNet Server using TensorFlow in a Docker Container
 To setup an ArtNet Docker Image please refer to ArtNet_Docker/README.md.
 
 Once you have created the docker image, $USER/artnet_serving, you can run the associated container with the following command:
