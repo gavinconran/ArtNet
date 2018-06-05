@@ -40,17 +40,17 @@ To setup an ArtNet Docker Image please refer to ArtNet_Docker/README.md.
 
 Once you have created the docker image, $USER/artnet_serving, you can run the associated container with the following command:
 
-'''
+```
 docker run -p 9000:9000 -it $USER/artnet_serving
 root@854459658fb4:/# tensorflow_model_server --port=9000 --model_name=artnet --model_base_path=/ArtNet/models &> artnet_log &
-'''
+```
 
 In a new terminal, query the ArtNet server
-'''
+```
 cd ArtNet_Clients
 $ python ArtNet_Client.py --server=localhost:9000 \
 --image=./dataPaperTest/1454_VirginAndChild_Rogier_van_der_Weyden.jpeg 
-'''
+```
 
 The image, $USER/artnet_serving, can be deployed to a serving cluster with Kubernetes in the Google Cloud Platform as described in [https://www.tensorflow.org/serving/serving_inception]. 
 
