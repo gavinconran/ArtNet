@@ -1,5 +1,5 @@
 # Instructions for building artnet_serving image
-The instructions are partly derived from [https://www.tensorflow.org/serving/serving_inception].
+The instructions are partly derived from [https://www.tensorflow.org/serving/serving_inception]. You may find this docker tutorial useful [https://docs.docker.com/get-started/].
 
 
 ## Create tensorflow-serving-devel container
