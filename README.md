@@ -35,6 +35,27 @@ I have provided a script, ArtNet_Client.py, for users to test the ArtNet server.
 --image=./dataPaperTest/1454_VirginAndChild_Rogier_van_der_Weyden.jpeg 
 ```
 
+## Deploy a ArtNet Server using TensorFlow in a Docker Container
+To setup an ArtNet Docker Image please refer to ArtNet_Docker/README.md.
+
+Once you have created the docker image, $USER/artnet_serving, you can run the associated container with the following command:
+
+'''
+docker run -p 9000:9000 -it $USER/artnet_serving
+root@854459658fb4:/# tensorflow_model_server --port=9000 --model_name=artnet --model_base_path=/ArtNet/models &> artnet_log &
+'''
+
+In a new terminal, query the ArtNet server
+'''
+cd ArtNet_Clients
+$ python ArtNet_Client.py --server=localhost:9000 \
+--image=./dataPaperTest/1454_VirginAndChild_Rogier_van_der_Weyden.jpeg 
+'''
+
+The image, $USER/artnet_serving, can be deployed to a serving cluster with Kubernetes in the Google Cloud Platform as described in [https://www.tensorflow.org/serving/serving_inception]. 
+
+
+
 ## Extend TensorFlow by creating a new Op
 As a pedagogical exercise I added a new Op, called CopyOfInputOp, by following the instructions in [https://www.tensorflow.org/extend/adding_an_op]. The new op is a very simple operation that just returns the input. The files can be found in the directory CopyOfInputOp. The source code must be compiled on your own machine and can be done by executing the following script in the CopyOfInputOp directory:
 ```
