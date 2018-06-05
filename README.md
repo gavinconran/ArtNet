@@ -43,7 +43,7 @@ To setup an ArtNet Docker Image please refer to ArtNet_Docker/README.md.
 Once you have created the docker image, $USER/artnet_serving, you can run the associated container with the following command:
 
 ```
-docker run -p 9000:9000 -it $USER/artnet_serving
+$ docker run -p 9000:9000 -it $USER/artnet_serving
 root@854459658fb4:/# tensorflow_model_server --port=9000 --model_name=artnet --model_base_path=/ArtNet/models &> artnet_log &
 ```
 
