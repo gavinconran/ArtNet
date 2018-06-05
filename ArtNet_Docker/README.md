@@ -2,10 +2,9 @@
 The instructions are partly derived from [https://www.tensorflow.org/serving/serving_inception]. You may find this docker tutorial useful [https://docs.docker.com/get-started/].
 
 
-## Create tensorflow-serving-devel container
+## Create artnet_container from pwdtensorflow-serving-devel container
 ```
-mkdir artnet
-cd artnet
+cd ArtNet_Docker
 docker build --pull -t $USER/tensorflow-serving-devel -f /path/to/ArtNet/ArtNet_Docker/Dockerfile.devel .
 docker run --name=artnet_container -it $USER/tensorflow-serving-devel
 ```
