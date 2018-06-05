@@ -53,6 +53,7 @@ cd ArtNet
 
 ## From Outside Container
 1) Commit image for deployment
+
 Note that we detach from the container at the end of above instructions instead of terminating it, 
 as we want to commit all changes to a new image $USER/artnet_serving for Kubernetes deployment.
 ```
