@@ -116,7 +116,7 @@ def main(_):
   # get top 3 indices of the highest predictions
   top_k = resultNumpy.argsort()[-3:][::-1]  ## -9 was changed from -5 \n",
   # get category labels
-  label_file ='../models/output_labels.txt'
+  label_file ='./output_labels.txt'
   labels = load_labels(label_file)
   #print(labels)
   print("###############################################")

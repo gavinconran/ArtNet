@@ -1,0 +1,8 @@
+baroque
+modern
+neoclassical
+realism
+renaissance
+rococo
+romantic
+ukiyoe
