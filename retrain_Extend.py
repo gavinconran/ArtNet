@@ -146,7 +146,7 @@ FAKE_QUANT_OPS = ('FakeQuantWithMinMaxVars',
 
 #####################################################################
 # create copy_of_input_module
-copy_of_input_module = tf.load_op_library('./CopyOfInputOp/copy_of_input.so')
+copy_of_input_module = tf.load_op_library('./TensorFlow_Extend/copy_of_input.so')
 
 # register CopyOfInput gradient op
 from tensorflow.python.framework import ops
