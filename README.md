@@ -59,15 +59,15 @@ The image, $USER/artnet_serving, can be deployed to a serving cluster with Kuber
 
 
 ## Extend TensorFlow by creating a new Op
-As a pedagogical exercise I added a new Op, called CopyOfInputOp, by following the instructions in [https://www.tensorflow.org/extend/adding_an_op]. The new op is a very simple operation that just returns the input. The files can be found in the directory CopyOfInputOp. The source code must be compiled on your own machine and can be done by executing the following script in the CopyOfInputOp directory:
+As a pedagogical exercise I added a new Op, called CopyOfInputOp, by following the instructions in [https://www.tensorflow.org/extend/adding_an_op]. The new op is a very simple operation that just returns the input. The files can be found in the directory TensorFlow_Extend. The source code must be compiled on your own machine and can be done by executing the following script in the TensorFlow_Extend directory:
 ```
 (tensorflow) $  ./compileCopyOfInputOp.sh
 ```
 To create an ArtNet model using this new Op, run the shell script:
 ```
-(tensorflow) $ ./retrainHub_InceptionV4_CopyOfInputOp.sh
+(tensorflow) $ ./retrainHub_InceptionV4_Extend.sh
 ```
-at the command line, which in turn calls the python program, retrainWithCopyOfInputOp.py. 
+at the command line, which in turn calls the python program, retrain_Extend.py. 
 
 Training and validation progress can be visualised by using tensorboard by executing the following command
 ```
@@ -77,9 +77,9 @@ Training and validation progress can be visualised by using tensorboard by execu
 When running ArtNet_Classification.ipynb with the ArtNet model created with the new op, the following lines of code must be included in the notebook:
 
 ```python
-model_file = "../models/CopyOfInputOp/output_graph.pb"
-label_file = "../models/CopyOfInputOp/output_labels.txt"
-tf.load_op_library('../CopyOfInputOp/copy_of_input.so')
+model_file = "../models/TensorFlow_Extend/output_graph.pb"
+label_file = "../models/TensorFlow_Extend/output_labels.txt"
+tf.load_op_library('../TensorFlow_Extend/copy_of_input.so')
 ```
 
 
