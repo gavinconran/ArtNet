@@ -1,4 +1,4 @@
-python retrainWithCopyOfInputOp.py \
+python retrain_Extend.py \
 --image_dir ./data \
 --how_many_training_steps=1000 \
 --output_graph=./models/CopyOfInputOp/output_graph.pb \

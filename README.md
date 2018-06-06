@@ -77,8 +77,8 @@ Training and validation progress can be visualised by using tensorboard by execu
 When running ArtNet_Classification.ipynb with the ArtNet model created with the new op, the following lines of code must be included in the notebook:
 
 ```python
-model_file = "../models/TensorFlow_Extend/output_graph.pb"
-label_file = "../models/TensorFlow_Extend/output_labels.txt"
+model_file = "../models/CopyOfInputOp/output_graph.pb"
+label_file = "../models/CopyOfInputOp/output_labels.txt"
 tf.load_op_library('../TensorFlow_Extend/copy_of_input.so')
 ```
 
