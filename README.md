@@ -12,7 +12,7 @@ at the command line, which in turn calls the python program, retrain.py.
 
 The above script trains, validates and tests an ArtNet model and the test images discussed in the paper can be replicated by executing the following Jupyter Notebook, ArtNet_Classification.ipynb, found in the ArtNet_Clients directory, along with the test data folder, dataTestPaper. 
 
-N.B.: The results will be different from the paper due to the use of an updated version of ArtNet_Classification.ipynb than that used when writing the paper. That said, the generated ArtNet model is valid and should have an accuracy close to that described in the paper.
+N.B.: The results will be different from the paper due to the use of the 'Hub' version of retrain.py. I used the pre-Hub version of retrain.py when writing the paper. That said, the generated ArtNet model is valid and should have an accuracy very close to that described in the paper.
 
 Training and validation progress can be visualised by using tensorboard by executing the following command
 ```
