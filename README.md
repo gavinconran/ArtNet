@@ -1,5 +1,5 @@
 # ArtNet
-## Create a Model using TensorFlow
+## Create the ArtNet Model using TensorFlow
 This repository contains the paper "**ArtNet:An Art Image Classifier fine-tuned from pre-trained Convolutional Neural Networks**" and supporting code.
 
 To replicate the best performing model, as described in the paper, you must first install TensorFlow, preferably in a virtual environment [https://www.tensorflow.org/install/install_linux]. 
