@@ -1,4 +1,9 @@
 # ArtNet
+## Introduction
+Out of a general interest in the **arts** I found myself studying [Greek and Roman Mythodology](https://www.coursera.org/learn/mythology), [Ancient Philosophy](https://www.coursera.org/learn/plato), [Classical Music](https://www.coursera.org/learn/introclassicalmusic) and following the BBC's multitude of excellent arts and history programs. To further my knowledge of **Artificial Intelligence** I took courses, such as [Advanced Software Engineering](https://www.edx.org/course/advanced-software-construction-java-mitx-6-005-2x), [Machine Learning](https://www.edx.org/course/machine-learning-columbiax-csmm-102x-0), [Robotics](https://www.edx.org/course/robotics-kinematics-mathematical-pennx-robo1x) and [Analytics](https://www.edx.org/course/data-models-decisions-business-analytics-columbiax-bamm-102x). 
+
+This project successfully morphs my interests in the arts & sciences and brings together my study and work of the last couple of years into a single piece of research, marking a personal learning milestone. 
+
 ## Create the ArtNet Model using TensorFlow
 This repository contains the paper "**ArtNet:An Art Image Classifier fine-tuned from pre-trained Convolutional Neural Networks**" and supporting code.
 
