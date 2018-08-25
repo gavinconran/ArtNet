@@ -1,11 +1,13 @@
 # ArtNet
 ## Introduction
-Out of a general interest in the **Arts** I found myself studying [Ancient Greek and Latin](http://www.open.edu/openlearn/history-the-arts/discovering-ancient-greek-and-latin/content-section-0?active-tab=description-tab), [Japanese](https://www.edx.org/course/japanese-pronunciation-for-communication), [Greek and Roman Mythodology](https://www.coursera.org/learn/mythology), [Ancient Philosophy](https://www.coursera.org/learn/plato), [Arab-Islamic History](https://www.edx.org/course/arab-islamic-history-from-tribes-to-empires) and [Classical Music](https://www.coursera.org/learn/introclassicalmusic) in addition to following the BBC's multitude of excellent arts and history programs. To further my knowledge of **Artificial Intelligence** I took courses, such as [Advanced Software Engineering](https://www.edx.org/course/advanced-software-construction-java-mitx-6-005-2x), [Machine Learning](https://www.edx.org/course/machine-learning-columbiax-csmm-102x-0), [Robotics](https://www.edx.org/course/robotics-kinematics-mathematical-pennx-robo1x) and [Analytics](https://www.edx.org/course/data-models-decisions-business-analytics-columbiax-bamm-102x).  
+Out of a general interest in the **Arts** I found myself studying [Ancient Greek and Latin](http://www.open.edu/openlearn/history-the-arts/discovering-ancient-greek-and-latin/content-section-0?active-tab=description-tab), [Japanese](https://www.edx.org/course/japanese-pronunciation-for-communication), [Greek and Roman Mythology](https://www.coursera.org/learn/mythology), [Ancient Philosophy](https://www.coursera.org/learn/plato), [Arab-Islamic History](https://www.edx.org/course/arab-islamic-history-from-tribes-to-empires) and [Classical Music](https://www.coursera.org/learn/introclassicalmusic) in addition to following the BBC's multitude of excellent arts and history programs. To further my knowledge of **Artificial Intelligence** I took courses, such as [Advanced Software Engineering](https://www.edx.org/course/advanced-software-construction-java-mitx-6-005-2x), [Machine Learning](https://www.edx.org/course/machine-learning-columbiax-csmm-102x-0), [Robotics](https://www.edx.org/course/robotics-kinematics-mathematical-pennx-robo1x) and [Analytics](https://www.edx.org/course/data-models-decisions-business-analytics-columbiax-bamm-102x).  
 
 ArtNet successfully combines my interests in the arts & sciences and brings together my study and work of the last couple of years into a single piece of research, marking a personal learning milestone. 
 
+
+
 ## Create the ArtNet Model using TensorFlow
-This repository contains the paper "**ArtNet:An Art Image Classifier fine-tuned from pre-trained Convolutional Neural Networks**" and supporting code.
+This repository contains the paper "**ArtNet:An Art Image Classifier fine-tuned from pre-trained Convolutional Neural Networks**" and supporting documentation and code.
 
 To replicate the best performing model, as described in the paper, you must first install TensorFlow, preferably in a virtual environment [https://www.tensorflow.org/install/install_linux]. 
 
