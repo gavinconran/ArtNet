@@ -51,7 +51,9 @@ tt = np.arange(0, 10001, 2000)  # time values
 ic = u0*np.sin(xx *np.pi/L)
 plt.figure(1)
 plt.plot(xx, ic, 'b')
-plt.title("Initial Conditions: u(x,0) = 100*sin(pi*x/L)")
+plt.title("Initial Conditions: u(x,0) = 100*sin(pi*x/L)"
+          "\n"
+          "Boundary Conditions: u(0,t)=u(L,t) = 0")
 plt.ylabel("u(x,0)")
 plt.xlabel("Distance, x")
 plt.ylim(0, 110)
@@ -70,7 +72,9 @@ plt.plot(xx, simulation11[2], 'g', label='t = 3')
 plt.plot(xx, simulation11[3], 'm', label='t = 4')
 plt.plot(xx, simulation11[4], 'c', label='t = 5')
 plt.legend()
-plt.title("Solution to Heat Equation over Time")
+plt.title("Solution to Heat Equation over Time"
+          "\n"
+          "Number of Component Waves, n, = 10")
 plt.ylabel("u(x,t)")
 plt.xlabel("Distance, x")
 plt.show()
