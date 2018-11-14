@@ -17,14 +17,14 @@ def decay(n, x, alpha, t, L):
 
 def Dn_coeff(L, n, x):
     '''
-    return Dn (Fourier Coefficient
-    Not sure if this is correct!!!
-    f(x) = 100*sin(pi* x /L)
+    return Dn (Fourier Coefficient) 
+    which is equal to 1 for n==1 and 0 otherwise due to how the integral plays out
+    IC: f(x) = 100*sin(pi* x /L)
     '''
     if (n==1):
-        return 1.0 #(2.0/L) * (-L*np.cos(np.pi*n))/(np.pi)
+        return 1.0
     else:
-        return (2.0/L) * (-L*np.sin(np.pi*n))/(np.pi*(n**2-1))
+        return 0.0
 
 def heat(n, x, alpha, t, L):
     '''
@@ -58,22 +58,23 @@ plt.ylim(0, 110)
 plt.show()
 
 # run simulation
-n = 1001 # going towards infinity
-simulation1001 = [[u0 * heat(n, x, alpha, t, L) for x in xx] for t in tt]
+n = 11 # going towards infinity
+simulation11 = [[u0 * heat(n, x, alpha, t, L) for x in xx] for t in tt]
 
 # plot results
 plt.figure(2)
 plt.ylim(0, 110)
-plt.plot(xx, simulation1001[0], 'b', label='t = 1')
-plt.plot(xx, simulation1001[1], 'r', label='t = 2')
-plt.plot(xx, simulation1001[2], 'g', label='t = 3')
-plt.plot(xx, simulation1001[3], 'm', label='t = 4')
-plt.plot(xx, simulation1001[4], 'c', label='t = 5')
+plt.plot(xx, simulation11[0], 'b', label='t = 1')
+plt.plot(xx, simulation11[1], 'r', label='t = 2')
+plt.plot(xx, simulation11[2], 'g', label='t = 3')
+plt.plot(xx, simulation11[3], 'm', label='t = 4')
+plt.plot(xx, simulation11[4], 'c', label='t = 5')
 plt.legend()
 plt.title("Solution to Heat Equation over Time")
 plt.ylabel("u(x,t)")
 plt.xlabel("Distance, x")
 plt.show()
+
 
 
 
