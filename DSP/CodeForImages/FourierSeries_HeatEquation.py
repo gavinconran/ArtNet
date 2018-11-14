@@ -9,17 +9,17 @@ from scipy import signal
 import scipy.fftpack
 mpl.style.use('classic')
 
-def decay(n, x, alpha, t, L):
+def decay(n, alpha, t, L):
     '''
     return exponential decay factor
     '''
-    return np.exp(-n**2 * x**2 * alpha * t / L**2)
+    return np.exp(-n**2 * alpha * t / L**2)
 
 def Dn_coeff(L, n, x):
     '''
     return Dn (Fourier Coefficient) 
     which is equal to 1 for n==1 and 0 otherwise due to how the integral plays out
-    IC: f(x) = 100*sin(pi* x /L)
+    IC: f(x) = 100*sin(pi* x /L) => unused
     '''
     if (n==1):
         return 1.0
@@ -35,8 +35,7 @@ def heat(n, x, alpha, t, L):
     L is the length of the rod
     return u(x, t)
     '''
-    nn = np.arange(1, n, 1) # used for summation from n-1 to n = infinity
-    return np.sum([Dn_coeff(L, n, x) * np.sin(n*np.pi*x/L) * decay(n, x, alpha, t, L) for n in nn])
+    return np.sin(np.pi*x/L) * decay(n, alpha, t, L) 
 
 # set parameters
 alpha = 1.22*10**(-3) # thermal diffusivity
@@ -45,7 +44,7 @@ u0 = 100.0 # initial max. temp.
 
 dx = 0.01
 xx= np.arange(0.00, L+dx, dx)   # distance values
-tt = np.arange(0, 10001, 2000)  # time values
+tt = np.arange(0, 1001, 200)  # time values
 
 # plot initial conditions
 ic = u0*np.sin(xx *np.pi/L)
@@ -60,7 +59,7 @@ plt.ylim(0, 110)
 plt.show()
 
 # run simulation
-n = 11 # going towards infinity
+n = 2 #11 # going towards infinity
 simulation11 = [[u0 * heat(n, x, alpha, t, L) for x in xx] for t in tt]
 
 # plot results
@@ -74,7 +73,7 @@ plt.plot(xx, simulation11[4], 'c', label='t = 5')
 plt.legend()
 plt.title("Solution to Heat Equation over Time"
           "\n"
-          "Number of Component Waves, n, = 10")
+          "Number of Component Waves, n = 1")
 plt.ylabel("u(x,t)")
 plt.xlabel("Distance, x")
 plt.show()
