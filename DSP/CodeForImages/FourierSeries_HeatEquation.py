@@ -13,7 +13,7 @@ def decay(n, alpha, t, L):
     '''
     return exponential decay factor
     '''
-    return np.exp(-n**2 * alpha * t / L**2)
+    return np.exp(-n**2 * np.pi**2 * alpha * t / L**2)
 
 def Dn_coeff(L, n, x):
     '''
@@ -44,7 +44,7 @@ u0 = 100.0 # initial max. temp.
 
 dx = 0.01
 xx= np.arange(0.00, L+dx, dx)   # distance values
-tt = np.arange(0, 1001, 200)  # time values
+tt = np.arange(0, 101, 20)  # time values
 
 # plot initial conditions
 ic = u0*np.sin(xx *np.pi/L)
