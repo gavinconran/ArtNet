@@ -49,7 +49,7 @@ tt = np.arange(0, 201, 40)  # time values
 # plot initial conditions
 ic = u_max*np.sin(xx *np.pi/L)
 plt.figure(1)
-plt.plot(xx, ic, 'b', label='f(x)')
+plt.plot(xx, ic, 'b', label='f(x) at t = 0')
 plt.title("Initial Conditions: u(x,0) = f(x) = 100*sin(pi*x/L)"
           "\n"
           "Boundary Conditions: u(0,t)=u(L,t) = 0")
@@ -66,11 +66,11 @@ simulation1 = [[u_max * heat(n, x, alpha, t, L) for x in xx] for t in tt]
 # plot results
 plt.figure(2)
 plt.ylim(0, 110)
-plt.plot(xx, simulation1[0], 'b', label='t = 1')
-plt.plot(xx, simulation1[1], 'r', label='t = 2')
-plt.plot(xx, simulation1[2], 'g', label='t = 3')
-plt.plot(xx, simulation1[3], 'm', label='t = 4')
-plt.plot(xx, simulation1[4], 'c', label='t = 5')
+plt.plot(xx, simulation1[0], 'b', label='t = 0')
+plt.plot(xx, simulation1[1], 'r', label='t = 1')
+plt.plot(xx, simulation1[2], 'g', label='t = 2')
+plt.plot(xx, simulation1[3], 'm', label='t = 3')
+plt.plot(xx, simulation1[4], 'c', label='t = 4')
 plt.legend()
 plt.title("Solution to Heat Equation over Time"
           "\n"
