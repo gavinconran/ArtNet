@@ -26,7 +26,7 @@ def Dn_coeff(L, n, x):
     else: # (when m != n)
         return 0.0
 
-def heat(n, x, alpha, t, L):
+def heat(to_n, x, alpha, t, L):
     '''
     n is max size of n in summation
     x is the distance along rod from 0
@@ -35,22 +35,22 @@ def heat(n, x, alpha, t, L):
     L is the length of the rod
     return u(x, t)
     '''
-    nn = np.arange(1, n+1)
+    nn = np.arange(1, to_n + 1) # n values
     return np.sum([Dn_coeff(L, n, x) * np.sin(np.pi*x/L) * decay(n, alpha, t, L) for n in nn]) 
 
-# set parameters
+## set parameters
 alpha = 1.22*10**(-3) # thermal diffusivity
-L = 1.0 # length of rod
 u_max = 100.0 # initial max. temp.
-
+# x dimension
+L = 1.0 # length of rod
 dx = 0.01 # distance step
 xx= np.arange(0.00, L+dx, dx)   # distance values
-
+#t dimension
 T = 200 # duration of simulation
 dt = 40 # time step
 tt = np.arange(0, T+dt, dt)  # time values
 
-# plot initial conditions
+## plot initial conditions
 ic = u_max*np.sin(xx *np.pi/L)
 plt.figure(1)
 plt.plot(xx, ic, 'b', label='f(x) at t = 0')
@@ -63,9 +63,9 @@ plt.ylim(0, 110)
 plt.legend()
 plt.show()
 
-# run simulation
-n = 1 # can go to infinity
-simulation = [[u_max * heat(n, x, alpha, t, L) for x in xx] for t in tt]
+## run simulation
+to_n = 1 # summation can go to infinity but in this case all energy is in the wave of n = 1
+simulation = [[u_max * heat(to_n, x, alpha, t, L) for x in xx] for t in tt]
 
 # plot results
 plt.figure(2)
@@ -83,11 +83,3 @@ plt.ylabel("u(x,t)")
 plt.xlabel("Distance, x")
 plt.show()
 
-
-
-
-
-
-
-
- 
