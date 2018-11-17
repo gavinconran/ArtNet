@@ -1,4 +1,4 @@
-# Plotting Code for Solution to Heat Equation
+# Plotting Code for Solution to Heat Equation using Fourier Series
 
 import numpy as np
 import math
@@ -43,7 +43,11 @@ alpha = 1.22*10**(-3) # thermal diffusivity
 u_max = 100.0 # initial max. temp.
 # x dimension
 L = 1.0 # length of rod
-dx = 0.01 # distance step
+nx = 51
+dx = L/(nx-1)
+
+#dx = 0.01 # distance step
+
 xx= np.arange(0.00, L+dx, dx)   # distance values
 #t dimension
 T = 200 # duration of simulation
@@ -70,16 +74,16 @@ simulation = [[u_max * heat(to_n, x, alpha, t, L) for x in xx] for t in tt]
 # plot results
 plt.figure(2)
 plt.ylim(0, 110)
-plt.plot(xx, simulation[0], 'b', label='t = 0')
-plt.plot(xx, simulation[1], 'r', label='t = 1')
-plt.plot(xx, simulation[2], 'g', label='t = 2')
-plt.plot(xx, simulation[3], 'm', label='t = 3')
-plt.plot(xx, simulation[4], 'c', label='t = 4')
+plt.plot(xx, simulation[0], 'b', label='f(x) at t=0')
+plt.plot(xx, simulation[1], 'g', label='t = 1')
+plt.plot(xx, simulation[2], 'r', label='t = 2')
+plt.plot(xx, simulation[3], 'c', label='t = 3')
+plt.plot(xx, simulation[4], 'm', label='t = 4')
 plt.legend()
-plt.title("Solution to Heat Equation over Time"
+plt.title("Fourier Series"
           "\n"
-          "Number of Component Waves, n = 1")
-plt.ylabel("u(x,t)")
-plt.xlabel("Distance, x")
+          "Dirichlet Boundary Conditions")
+plt.ylabel("Temperature, u(x,t)")
+plt.xlabel('Length of Rod')
 plt.show()
 

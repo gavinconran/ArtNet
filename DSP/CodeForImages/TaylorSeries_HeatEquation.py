@@ -29,7 +29,7 @@ def generateMatrix(N, sigma):
     d = 2*np.diag(np.ones(N-2)*(1+1./sigma))
     
     # Consider Neumann BC
-    #d[-1,-1] = 1+2./sigma
+    d[-1,-1] = 1+2./sigma
     
     # Setup upper diagonal
     ud = np.diag(np.ones(N-3)*-1, 1)
@@ -61,7 +61,7 @@ def generateRHS(T, sigma):
     b = T[1:-1]*2*(1./sigma-1) + T[:-2] + T[2:]
     # Consider Dirichlet BC
     b[0] += T[0]
-    b[-1] += T[-1]
+    #b[-1] += T[-1]
     
     return b
 
@@ -92,8 +92,8 @@ def CrankNicolson(T, A, nt, sigma):
         T_interior = solve(A,b)
         T[1:-1] = T_interior
         # Enforce Neumann BC (Dirichlet is enforced automatically)
-        #T[-1] = T[-2]
-        if (t%(nt/5)==0):
+        T[-1] = T[-2]
+        if (t%(nt/5)==0) and (t>0):
             plt.plot(xx, T)
 
     return T
@@ -118,12 +118,13 @@ A = generateMatrix(nx, sigma)
 
 ## run and plot simulation
 plt.figure(1)
-plt.title("Solution to Heat Equation over Time"
+plt.title("Taylor Series"
           "\n"
-          "Taylor Series, sigma = 3.0")
+          "Dirichlet & Neumann Boundary Conditions")
 plt.ylabel("Temperature, u(x,t)")
 plt.xlabel('Length of Rod')
 plt.ylim(0, 110)
+plt.plot(xx, Ti)
 T_CN = CrankNicolson(Ti.copy(), A, T, sigma)
 plt.show()
 
