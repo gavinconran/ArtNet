@@ -19,7 +19,8 @@ def Dn_coeff(L, n, x):
     return Dn (Fourier Coefficient) 
     which is equal to 1 for n==1 and 0 otherwise due to how the integral plays out
     IC: f(x) = 100*sin(pi* x /L)
-    The integral from 0 to L of sin(m * pi * x / L) * sin(n pi x /L) = 1 when m==n and 0 when m!=n (orthogonal)
+    L/2 * (The integral from 0 to L of sin(m * pi * x / L) * sin(n pi x /L)) = 1 when m==n 
+    and 0 when m!=n (orthogonal)
     '''
     if (n==1): # (when m == n)
         return 1.0
