@@ -1,7 +1,7 @@
 # Newton / Hamilton
 Classical Mechanics
 
-# Schrodinger
+# Schrödinger
 Quantum Mechanics
 
 # Lagrange
