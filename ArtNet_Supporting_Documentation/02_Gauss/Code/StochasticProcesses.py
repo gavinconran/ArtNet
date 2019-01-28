@@ -6,26 +6,38 @@ import numpy as np
 
 # constants
 T = 2 # total time
-mu = 0.1 # mean
-sigma = 0.1 # standard deviation
-S0 = 1 # initial value
-dt = 0.01 # time interval
+mu = 2.0 #1.0 #0.1 # mean
+sigma = 100 #0.1 # standard deviation
+dt = 0.001 # time interval
 N = int(round(T/dt)) # number of time steps
-t = np.linspace(0, T, N) # time steps
-W = np.random.standard_normal(size = N) # array of independent random variables drawn from normal dist.
-W = np.cumsum(W)*np.sqrt(dt) ### array of independent standard brownian motion variables###
-drift = (mu-0.5*sigma**2)*t # drift
-diffusion = sigma*W         # diffusion
-ito = drift + diffusion # Ito process
-weiner = diffusion     # Weiner / Brownian process
-X_ito = S0*np.exp(ito) ### geometric brownian motion with drift - ito process###
-X_weiner = S0*np.exp(weiner) ### geometric brownian motion without drift###
+time = np.linspace(0, T, N) # time steps array
 
+# Plot Graph
 plt.figure(1)
-plt.title("Stochastic Processes")
+plt.title("Stochastic Processes \n dX = drift*dt + diffusion*dW(t)")
 plt.ylabel("X")
 plt.xlabel("t")
-plt.plot(t, X_weiner, 'b-', label = 'Weiner process: diffusion only')
-plt.plot(t, X_ito, 'r-', label = 'Ito process: drift and diffusion')
+
+# Process 1:Ito process (drift and diffusion)
+np.random.seed(2)
+x=0 # initial value, x0
+# dummy plot for label
+plt.plot([x, x], [time[0], time[0]], 'r-', linewidth=0.5, label = 'Ito process: drift and diffusion' )
+for t in time:
+   x_new = x + mu*dt + sigma*np.random.normal(0, dt) 
+   plt.plot([t, t+dt], [x, x_new], 'r-', linewidth=0.5)
+   x = x_new
+
+# Process2 :Weiner process (diffusion only)
+np.random.seed(2)
+x=0 # initial value x0
+# dummy plot for label
+plt.plot([x, x], [time[0], time[0]], 'b-', linewidth=0.5, label = 'Weiner process: diffusion only')
+for t in time:
+   x_new = x + sigma*np.random.normal(0, dt) 
+   plt.plot([t, t+dt], [x, x_new], 'b-', linewidth=0.5)
+   x = x_new
+
+plt.xlim(0, T)
 plt.legend()
 plt.show()
