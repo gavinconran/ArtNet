@@ -7,13 +7,13 @@ import numpy as np
 from scipy.stats import norm
 from scipy import special
 
-# Boltzmann distribution - various mu and sigma
+# Boltzmann distribution - various a values
 def boltzmann(x, a):
     factor = np.sqrt(2. / np.pi)
     distribution = (x**2 * np.exp(-x**2/(2*a**2))) / a**3
     return factor * distribution  
 
-# generate range of x values from -2.3 to 2.3
+# generate range of x values from 0 to 20
 x = np.linspace(0, 20.0, 100)
 # a variable
 a1, a2, a5 = 1, 2, 5
