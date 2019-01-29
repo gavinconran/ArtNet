@@ -1,6 +1,6 @@
 ## Work in progress
 # General Mathematics and Algorithms
-There are three revision/background papers on mathematics and algorithms grouped according to mathematicians from the past:
+There are a number of revision/background papers on mathematics and algorithms grouped according to mathematicians from the past:
 * Fourier
 * Gauss
 * Newton 
