@@ -5,6 +5,7 @@ There are a number of revision/background papers on mathematics and computing gr
 * Newton 
 * Euler 
 * Descartes
+* Lovelace
 
 In the Descartes paper there is a list of the mathematicians, in chronological order, I encountered during the project.
 
