@@ -1,0 +1,32 @@
+<mockup version="1.0" skin="sketch" measuredW="1006" measuredH="444" mockupW="603" mockupH="421">
+  <controls>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TitleWindow" x="403" y="23" w="603" h="421" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>15</bottomheight>
+        <close>true</close>
+        <maximizeRestore>true</maximizeRestore>
+        <minimize>true</minimize>
+        <text>MyAlliance%09%09%09%09%09</text>
+        <topheight>26</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Accordion" x="405" y="43" w="150" h="401" measuredW="150" measuredH="429" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>0</selectedIndex>
+        <text>Live%20%26%20OnDemand%0A-%20Conferences%0A-%20Councils%0A-%20Talks%0A-%20TV%20Interviews%0A-%20Leaders%0AFund%20Raising%0A-%20Golf%0A-%20Parties%0A-%20Quizs%0AElections%0A-%20Council%0A-%20Assembly%0A-%20Paliament%0A-%20European%0AParty%20Elections%0A-%20AGM</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="598" y="63" w="372" h="248" measuredW="300" measuredH="200" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::DataGrid" x="552" y="329" w="454" h="115" measuredW="431" measuredH="175" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <selectedIndex>1</selectedIndex>
+        <text>%5Bx%5D%2C%20Event%2C%20Location%2C%20Date%2C%20Time%0A%5Bx%5D%2C%20Party%20Council%20/%20AGM%2C%20Lisburn%2C%204th%20Februrary%0A%5Bx%5D%2C%20Party%20Conference%2C%20Le%20Mon%2C%204th%20May%0A%5Bx%5D%2C%20Party%20Council%20Summer%2C%20Newcastle%2C%204th%20June%0A%5Bx%5D%2C%20Party%20Council%20Autumn%2C%20Belfast%2C%204th%20September%0A%5Bx%5D%2C%20Party%20Council%20Winter%2C%20Newtownabbey%2C%204td%20December</text>
+        <value>21</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::HelpButton" x="938" y="28" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="4" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

@@ -1,5 +1,5 @@
 # Mathematics and Computer Science
-There are a number of revision/background papers grouped according to mathematicians and scientists from the past:
+There are a number of revision/background papers grouped according to thinkers and practioners from the past:
 * Fourier
 * Gauss
 * Newton 
@@ -7,6 +7,7 @@ There are a number of revision/background papers grouped according to mathematic
 * Descartes
 * Lovelace
 * Copernicus
+* Jobs
 
 In the Descartes paper there is a list of scientists, artists and thinkers, in chronological order, I encountered during the project.
 

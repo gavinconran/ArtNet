@@ -1,0 +1,83 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e2fff3;
+}
+#page-wrapper {
+  position: relative;
+  width: 768px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 1000px;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+.btn.btn-1 {
+  width: 660px;
+  height: 40px;
+  position: absolute;
+  top: 320px;
+  left: 61px;
+}
+.btn.btn-2 {
+  width: 660px;
+  height: 40px;
+  position: absolute;
+  top: 620px;
+  left: 60px;
+}
+.btn.btn-3 {
+  width: 660px;
+  height: 40px;
+  position: absolute;
+  top: 901px;
+  left: 61px;
+}
+.hero-unit .heading.heading-1 {
+  font-size: 15pt;
+}
+.hero-unit p.p-1 {
+  font-size: 11pt;
+}
+.hero-unit.hero-unit-1 {
+  padding: 10px;
+  width: 640px;
+  height: 220px;
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
+.hero-unit.hero-unit-2 {
+  padding: 10px;
+  width: 640px;
+  height: 220px;
+  position: absolute;
+  top: 380px;
+  left: 60px;
+}
+.hero-unit.hero-unit-3 {
+  padding: 10px;
+  width: 640px;
+  height: 200px;
+  position: absolute;
+  top: 680px;
+  left: 62px;
+}
+.navbar {
+  width: 660px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+.navbar .navbar-inner .brand {
+  font-size: 30pt;
+}

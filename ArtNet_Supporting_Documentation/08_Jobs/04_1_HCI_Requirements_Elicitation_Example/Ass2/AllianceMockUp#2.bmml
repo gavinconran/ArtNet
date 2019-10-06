@@ -1,0 +1,27 @@
+<mockup version="1.0" skin="sketch" measuredW="966" measuredH="443" mockupW="603" mockupH="421">
+  <controls>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TitleWindow" x="363" y="22" w="603" h="421" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>15</bottomheight>
+        <close>true</close>
+        <maximizeRestore>true</maximizeRestore>
+        <minimize>true</minimize>
+        <text>MyAlliance%09%09%09%09%09</text>
+        <topheight>26</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::HelpButton" x="898" y="27" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::TabBar" x="363" y="62" w="602" h="366" measuredW="426" measuredH="100" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>0</selectedIndex>
+        <text>Live%20%26%20OnDemand%2C%20Fund%20Raising%2C%20Canvasing%2C%20Party%20Elections</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::DataGrid" x="363" y="301" w="603" h="127" measuredW="497" measuredH="205" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5Bx%5D%2C%20Event%2C%20Location%2C%20Date%2C%20Time%0A%5Bx%5D%2C%20Party%20Council%20/%20AGM%2C%20Lisburn%2C%204th%20Februrary%2C%20Live%20at%2010%3A30%0A%5Bx%5D%2C%20Party%20Conference%2C%20Le%20Mon%2C%204th%20May%2C%20Live%20at%209%3A30%0A%5Bx%5D%2C%20Party%20Council%20Summer%2C%20Newcastle%2C%204th%20June%2C%20Live%20at%2010%3A30%0A%5Bx%5D%2C%20Party%20Council%20Autumn%2C%20Belfast%2C%204th%20September%2C%20Live%20at%2010%3A30%0A%5Bx%5D%2C%20Party%20Council%20Winter%2C%20Newtownabbey%2C%204td%20December%2C%20Live%20at%2010%3A30%0A%5Bx%5D%2C%20Hearts%20%26%20Minds%20Interview%2C%20BBC%2C%203rd%20April%2C%20OnDemand</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="524" y="98" w="-1" h="-1" measuredW="300" measuredH="200" zOrder="4" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

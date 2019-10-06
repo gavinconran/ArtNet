@@ -1,0 +1,32 @@
+<mockup version="1.0" skin="sketch" measuredW="966" measuredH="443" mockupW="603" mockupH="421">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="363" y="22" w="603" h="421" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>15</bottomheight>
+        <close>true</close>
+        <maximizeRestore>true</maximizeRestore>
+        <minimize>true</minimize>
+        <text>MyAlliance%09%09%09%09%09</text>
+        <topheight>26</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::HelpButton" x="898" y="27" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TabBar" x="363" y="62" w="602" h="366" measuredW="426" measuredH="100" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>0</selectedIndex>
+        <text>Live%20%26%20OnDemand%2C%20Fund%20Raising%2C%20Canvasing%2C%20Party%20Elections</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="604" y="162" w="347" h="246" measuredW="300" measuredH="200" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Tree" x="378" y="108" w="211" h="300" measuredW="300" measuredH="246" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>F%20Live%20%26%20OnDemand%0A%5B%5D%2C%20Party%20Council%20/%20AGM%0A%5Bx%5D%2C%20Party%20Conference%0A%5B%5D%2C%20Party%20Council%20Summer%0A%5B%5D%2C%20Party%20Council%20Autumn%0A%5B%5D%2C%20Party%20Council%20Winter%0A%5B%5D%2C%20Hearts%20%26%20Minds%20Interview%0Af%20Fund%20raising%0Af%20Canvasing%0Af%20Party%20Elections</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::SubTitle" x="645" y="108" w="-1" h="-1" measuredW="253" measuredH="33" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Live%3A%20Party%20Conference</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

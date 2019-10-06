@@ -1,0 +1,129 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e2fff3;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+/* Set floating body text margins to 0 */
+[class*="dom-body-text"] p {
+  margin: 0 0 10px 0;
+}
+.btn.btn-1 {
+  width: 520px;
+  height: 40px;
+  position: absolute;
+  top: 272px;
+  left: 180px;
+}
+.btn.btn-2 {
+  background-image: none;
+  background-color: #85caff;
+  width: 60px;
+  height: 18px;
+  position: absolute;
+  top: 280px;
+  left: 80px;
+}
+.btn.btn-3 {
+  width: 540px;
+  height: 40px;
+  position: absolute;
+  top: 511px;
+  left: 180px;
+}
+.btn.btn-4 {
+  background-image: none;
+  background-color: #85caff;
+  width: 60px;
+  height: 18px;
+  position: absolute;
+  top: 520px;
+  left: 80px;
+}
+.btn.btn-5 {
+  width: 541px;
+  height: 40px;
+  position: absolute;
+  top: 751px;
+  left: 180px;
+}
+.btn.btn-6 {
+  background-image: none;
+  background-color: #85caff;
+  width: 60px;
+  height: 18px;
+  position: absolute;
+  top: 760px;
+  left: 80px;
+}
+.hero-unit .heading.heading-1 {
+  font-size: 15pt;
+}
+.hero-unit p.p-1 {
+  font-size: 11pt;
+}
+.hero-unit.hero-unit-1 {
+  padding: 10px;
+  width: 640px;
+  height: 190px;
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
+.hero-unit.hero-unit-2 {
+  padding: 10px;
+  width: 640px;
+  height: 220px;
+  position: absolute;
+  top: 320px;
+  left: 60px;
+}
+.hero-unit.hero-unit-3 {
+  padding: 10px;
+  width: 640px;
+  height: 200px;
+  position: absolute;
+  top: 581px;
+  left: 62px;
+}
+.navbar.navbar-1 {
+  width: 660px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+.navbar.navbar-2 {
+  width: 360px;
+  height: 40px;
+  position: absolute;
+  top: 900px;
+  left: 180px;
+}
+.navbar .navbar-inner .brand {
+  font-size: 30pt;
+}
+.dom-body-text {
+  overflow: hidden;
+  width: 660px;
+  height: 40px;
+  position: absolute;
+  top: 840px;
+  left: 60px;
+}
+.dom-body-text p {
+  background-image: none;
+  font-family: Arial;
+  line-height: 1.5;
+  font-size: 8pt;
+  background-color: rgba(0, 0, 0, 0);
+  color: #333333;
+  border: none;
+  font-weight: normal;
+  text-decoration: initial;
+  text-align: center;
+}
