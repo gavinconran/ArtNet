@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : film_info.xml
+    Created on : 05 November 2011, 15:10
+    Author     : The Conrans
+    Description:
+        Purpose of the document follows.
+-->
+<films>
+    <afilm createdby="Gavin">
+        <title>Godfather, The</title>
+        <year>1972</year>
+        <directors>Francis Ford Coppola</directors>
+        <genres>
+            <genre>Crime</genre>
+            <genre>Drama</genre>
+        </genres>
+        <plot>Son of a mafia boss takes over when his father is critically wounded in a mob hit.</plot>
+        <cast>
+            <performer>
+                <actor>Marlon Brando</actor>
+                <role>Don Vito Corleone</role>
+            </performer>
+            <performer>
+                <actor>Diane Keaton</actor>
+                <role>kay Adams Corleone</role>
+            </performer>
+            <performer>
+                <actor>Robert Duvall</actor>
+                <role>Tom Hagen</role>
+            </performer>
+            <performer>
+                <actor>James Cann</actor>
+                <role>Sonny Corleone</role>
+            </performer>
+        </cast>
+    </afilm>
+    <afilm createdby="Gavin">
+        <title>Godfather II, The</title>
+        <year>1972</year>
+        <directors>Francis Ford Coppola</directors>
+        <genres>
+            <genre>Crime</genre>
+            <genre>Drama</genre>
+        </genres>
+        <plot>Son of a mafia boss takes over when his father is critically wounded in a mob hit.</plot>
+        <cast>
+            <performer>
+                <actor>Robert DeNero</actor>
+                <role>Don Vito Corleone</role>
+            </performer>
+            <performer>
+                <actor>Diane Keaton</actor>
+                <role>kay Adams Corleone</role>
+            </performer>
+            <performer>
+                <actor>Robert Duvall</actor>
+                <role>Tom Hagen</role>
+            </performer>
+            <performer>
+                <actor>James Cann</actor>
+                <role>Sonny Corleone</role>
+            </performer>
+        </cast>
+    </afilm>
+    <afilm createdby="Gavin">
+        <title>Godfather III, The</title>
+        <year>1972</year>
+        <directors>Francis Ford Coppola</directors>
+        <genres>
+            <genre>Crime</genre>
+            <genre>Drama</genre>
+        </genres>
+        <plot>Son of a mafia boss takes over when his father is critically wounded in a mob hit.</plot>
+        <cast>
+            <performer>
+                <actor>George Clooney</actor>
+                <role>Don Vito Corleone</role>
+            </performer>
+            <performer>
+                <actor>Diane Keaton</actor>
+                <role>kay Adams Corleone</role>
+            </performer>
+            <performer>
+                <actor>Robert Duvall</actor>
+                <role>Tom Hagen</role>
+            </performer>
+            <performer>
+                <actor>James Cann</actor>
+                <role>Sonny Corleone</role>
+            </performer>
+        </cast>
+    </afilm>
+    <afilm createdby="Gavin">
+        <title>Godfather IV, The</title>
+        <year>1972</year>
+        <directors>Francis Ford Coppola</directors>
+        <genres>
+            <genre>Crime</genre>
+            <genre>Drama</genre>
+        </genres>
+        <plot>Son of a mafia boss takes over when his father is critically wounded in a mob hit.</plot>
+        <cast>
+            <performer>
+                <actor>Robert DeNero</actor>
+                <role>Don Vito Corleone</role>
+            </performer>
+            <performer>
+                <actor>Victoria Conran</actor>
+                <role>kay Adams Corleone</role>
+            </performer>
+            <performer>
+                <actor>Robert Duvall</actor>
+                <role>Tom Hagen</role>
+            </performer>
+            <performer>
+                <actor>James Cann</actor>
+                <role>Sonny Corleone</role>
+            </performer>
+        </cast>
+    </afilm>
+    <afilm createdby="Gavin">
+        <title>Godfather V, The</title>
+        <year>1972</year>
+        <directors>Francis Ford Coppola</directors>
+        <genres>
+            <genre>Crime</genre>
+            <genre>Drama</genre>
+        </genres>
+        <plot>Son of a mafia boss takes over when his father is critically wounded in a mob hit.</plot>
+        <cast>
+            <performer>
+                <actor>Gavin Conran</actor>
+                <role>Don Vito Corleone</role>
+            </performer>
+            <performer>
+                <actor>Diane Keaton</actor>
+                <role>kay Adams Corleone</role>
+            </performer>
+            <performer>
+                <actor>Robert Duvall</actor>
+                <role>Tom Hagen</role>
+            </performer>
+            <performer>
+                <actor>James Cann</actor>
+                <role>Sonny Corleone</role>
+            </performer>
+        </cast>
+    </afilm>
+</films>
+
+
+
