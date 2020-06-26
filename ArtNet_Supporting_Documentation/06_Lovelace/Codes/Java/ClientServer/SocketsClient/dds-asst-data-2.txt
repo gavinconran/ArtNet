@@ -1,0 +1,288 @@
+ProteinKey	SaveDate	Author	ID	AC	DE	GN	OS
+2653	05-Dec-02	wehi	AAN23132	AAN23132;	Hemolysin (Fragment).	hlyA.	Vibrio cholerae.
+2654	05-Dec-02	wehi	AAN23133	AAN23133;	Hemolysin (Fragment).	hlyA.	Vibrio cholerae.
+2655	05-Dec-02	wehi	AAN23134	AAN23134;	Hemolysin (Fragment).	hlyA.	Vibrio cholerae.
+2656	05-Dec-02	wehi	AAN23135	AAN23135;	Hemolysin (Fragment).	hlyA.	Vibrio cholerae.
+2843	05-Dec-02	wehi	AAN23914	AAN23914;	"[Similar to Mycobacterium tuberculosis polyphosphate glucokinase, (polyphosphate-glucose phosphotransferase) also similar to members of, ROK family of transcriptional regulators.]"	ppgK.	Bifidobacterium longum NCC2705.
+2702	05-Dec-02	wehi	AAN44553	AAN44553;	"[Outer membrane channel, specific tolerance to colicin E1, segregation, of daughter chromosomes.]"	tolC.	Shigella flexneri 2a str. 301.
+2657	05-Dec-02	wehi	AAN47376	AAN47376;	Alpha-hemolysin.	hlyA.	Leptospira interrogans serovar lai str. 56601.
+2701	05-Dec-02	wehi	AAN51125	AAN51125;	Outer membrane protein tolC.	tolC.	Leptospira interrogans serovar lai str. 56601.
+2703	05-Dec-02	wehi	AAN56879	AAN56879;	Outer membrane protein TolC.	tolC.	Shewanella oneidensis MR-1.
+2680	05-Dec-02	wehi	AAN57287	AAN57287;	Toxin secretion ATP-binding protein.	rtxB.	Shewanella oneidensis MR-1.
+2620	05-Dec-02	wehi	ACP_TREHY	O34163;	Acyl carrier protein (ACP) [Contains: Beta-hemolysin].	ACPP OR HLYA.	Treponema hyodysenteriae (Serpulina hyodysenteriae).
+2704	05-Dec-02	wehi	C1QA_HUMAN	P02745;	"Complement C1q subcomponent, A chain precursor."	C1QA.	Homo sapiens (Human).
+2705	05-Dec-02	wehi	C1QA_MOUSE	P98086;	"Complement C1q subcomponent, A chain precursor."	C1QA.	Mus musculus (Mouse).
+2706	05-Dec-02	wehi	C1QA_RAT	P31720;	"Complement C1q subcomponent, A chain (Fragment)."	C1QA.	Rattus norvegicus (Rat).
+2707	05-Dec-02	wehi	C1QB_HUMAN	P02746; Q96H17;	"Complement C1q subcomponent, B chain precursor."	C1QB.	Homo sapiens (Human).
+2708	05-Dec-02	wehi	C1QB_MOUSE	P14106;	"Complement C1q subcomponent, B chain precursor."	C1QB.	Mus musculus (Mouse).
+2709	05-Dec-02	wehi	C1QB_RAT	P31721;	"Complement C1q subcomponent, B chain precursor."	C1QB.	Rattus norvegicus (Rat).
+2710	05-Dec-02	wehi	C1QC_HUMAN	P02747; Q96DL2; Q96H05;	"Complement C1q subcomponent, C chain precursor."	C1QG OR C1QC.	Homo sapiens (Human).
+2711	05-Dec-02	wehi	C1QC_MOUSE	Q02105;	"Complement C1q subcomponent, C chain precursor."	C1QG OR C1QC.	Mus musculus (Mouse).
+2712	05-Dec-02	wehi	C1QC_RAT	P31722;	"Complement C1q subcomponent, C chain (Fragment)."	C1QG OR C1QC.	Rattus norvegicus (Rat).
+2713	05-Dec-02	wehi	C1R_HUMAN	P00736;	Complement C1r component precursor (EC 3.4.21.41).	C1R.	Homo sapiens (Human).
+2844	05-Dec-02	wehi	C1S_HUMAN	[P09871; Q9UM14; Q9UCU7; Q9UCU8; Q9UCU9; Q9UCV0; Q	Complement C1s component precursor (EC 3.4.21.42) (C1 esterase).	C1S.	Homo sapiens (Human).
+2845	05-Dec-02	wehi	C1S_HUMAN	[P09871; Q9UM14; Q9UCU7; Q9UCU8; Q9UCU9; Q9UCV0; Q	Complement C1s component precursor (EC 3.4.21.42) (C1 esterase).	C1S.	Homo sapiens (Human).
+2846	05-Dec-02	wehi	C1S_HUMAN	[P09871; Q9UM14; Q9UCU7; Q9UCU8; Q9UCU9; Q9UCV0; Q	Complement C1s component precursor (EC 3.4.21.42) (C1 esterase).	C1S.	Homo sapiens (Human).
+2847	05-Dec-02	wehi	C1S_HUMAN	[P09871; Q9UM14; Q9UCU7; Q9UCU8; Q9UCU9; Q9UCV0; Q	Complement C1s component precursor (EC 3.4.21.42) (C1 esterase).	C1S.	Homo sapiens (Human).
+2848	05-Dec-02	wehi	C1S_HUMAN	[P09871; Q9UM14; Q9UCU7; Q9UCU8; Q9UCU9; Q9UCV0; Q	Complement C1s component precursor (EC 3.4.21.42) (C1 esterase).	C1S.	Homo sapiens (Human).
+2714	05-Dec-02	wehi	C1S_HUMAN	[P09871; Q9UM14; Q9UCU7; Q9UCU8; Q9UCU9; Q9UCV0; Q	Complement C1s component precursor (EC 3.4.21.42) (C1 esterase).	C1S.	Homo sapiens (Human).
+2815	05-Dec-02	wehi	C1S_HUMAN	[P09871; Q9UM14; Q9UCU7; Q9UCU8; Q9UCU9; Q9UCV0; Q	Complement C1s component precursor (EC 3.4.21.42) (C1 esterase).	C1S.	Homo sapiens (Human).
+2715	05-Dec-02	wehi	C3AR_MOUSE	O09047; O35951;	"[C3a anaphylatoxin chemotactic receptor (C3a-R) (C3AR) (Complement, component 3a receptor 1).]"	C3AR1 OR C3R1.	Mus musculus (Mouse).
+2658	05-Dec-02	wehi	CAD33759	CAD33759;	Hemolysin A.	hlyA.	Escherichia coli.
+2659	05-Dec-02	wehi	CAD42039	CAD42039;	HlyA protein.	hlyA.	Escherichia coli.
+2716	05-Dec-02	wehi	CD93_HUMAN	Q9NPY3; O00274;	"[Complement component C1q receptor precursor (Complement component 1, q, subcomponent, receptor 1) (C1qRp) (C1qR(p)) (C1q/MBL/SPA receptor), (CD93 antigen) (CDw93).]"	C1QR1 OR CD93.	Homo sapiens (Human).
+2717	05-Dec-02	wehi	CD93_MOUSE	O89103;	"[Complement component C1q receptor precursor (Complement component 1, q, subcomponent, receptor 1) (C1qRp) (C1qR(p)) (C1q/MBL/SPA receptor), (CD93 antigen) (Cell surface antigen AA4) (Lymphocyte antigen 68).]"	C1QR1 OR CD93 OR C1QRP OR LY68 OR AA4.	Mus musculus (Mouse).
+2718	05-Dec-02	wehi	CD93_RAT	Q9ET61; Q9JIZ6;	"[Complement component C1q receptor precursor (Complement component 1, q, subcomponent, receptor 1) (C1qRp) (C1qR(p)) (C1q/MBL/SPA receptor), (CD93 antigen) (Cell surface antigen AA4).]"	C1QR1 OR CD93 OR C1QRP.	Rattus norvegicus (Rat).
+2719	05-Dec-02	wehi	CO6_HUMAN	P13671;	Complement component C6 precursor.	C6.	Homo sapiens (Human).
+2720	05-Dec-02	wehi	CO7_HUMAN	P10643; Q92489;	Complement component C7 precursor.	C7.	Homo sapiens (Human).
+2721	05-Dec-02	wehi	CO7_PIG	Q9TUQ3;	Complement component C7 precursor.	C7.	Sus scrofa (Pig).
+2722	05-Dec-02	wehi	CO8A_HUMAN	P07357; Q13668; Q9H130;	Complement component C8 alpha chain precursor.	C8A.	Homo sapiens (Human).
+2723	05-Dec-02	wehi	CO8A_RABIT	P98136;	Complement component C8 alpha chain precursor.	C8A.	Oryctolagus cuniculus (Rabbit).
+2724	05-Dec-02	wehi	CO8B_HUMAN	P07358;	Complement component C8 beta chain precursor.	C8B.	Homo sapiens (Human).
+2725	05-Dec-02	wehi	CO8B_ONCMY	Q90X85;	Complement component C8 beta chain precursor.	C8B.	Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).
+2726	05-Dec-02	wehi	CO8B_PAROL	Q9PVW7;	Complement component C8 beta chain precursor.	C8B.	Paralichthys olivaceus (Flounder).
+2727	05-Dec-02	wehi	CO8B_RABIT	P98137;	Complement component C8 beta chain precursor.	C8B.	Oryctolagus cuniculus (Rabbit).
+2728	05-Dec-02	wehi	CO8B_RAT	P55314;	Complement component C8 beta chain (Fragment).	C8B.	Rattus norvegicus (Rat).
+2729	05-Dec-02	wehi	CO8G_HUMAN	P07360;	Complement component C8 gamma chain precursor.	C8G.	Homo sapiens (Human).
+2730	05-Dec-02	wehi	CO8G_MOUSE	Q8VCG4;	Complement component C8 gamma chain precursor.	C8G.	Mus musculus (Mouse).
+2731	05-Dec-02	wehi	CO8G_RABIT	Q28679;	Complement component C8 gamma chain precursor.	C8G.	Oryctolagus cuniculus (Rabbit).
+2732	05-Dec-02	wehi	CO9_FUGRU	P79755;	Complement component C9 precursor.	C9.	Fugu rubripes (Japanese pufferfish) (Takifugu rubripes).
+2733	05-Dec-02	wehi	CO9_HORSE	P48770;	Complement component C9 precursor.	C9.	Equus caballus (Horse).
+2734	05-Dec-02	wehi	CO9_HUMAN	P02748;	Complement component C9 precursor.	C9.	Homo sapiens (Human).
+2735	05-Dec-02	wehi	CO9_MOUSE	P06683; Q91XA7;	Complement component C9 precursor.	C9.	Mus musculus (Mouse).
+2736	05-Dec-02	wehi	CO9_ONCMY	P06682;	Complement component C9 (Fragment).	C9.	Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).
+2737	05-Dec-02	wehi	CO9_RABIT	P48747;	Complement component C9 precursor.	C9.	Oryctolagus cuniculus (Rabbit).
+2738	05-Dec-02	wehi	CO9_RAT	Q62930; Q62957;	Complement component C9 precursor.	C9.	Rattus norvegicus (Rat).
+2739	05-Dec-02	wehi	COG1_MOUSE	Q9Z160;	"[Conserved oligomeric Golgi complex component 1 (Low density, lipoprotein receptor defect B-complementing protein).]"	COG1 OR LDLB.	Mus musculus (Mouse).
+2740	05-Dec-02	wehi	COG2_HUMAN	Q14746;	"[Conserved oligomeric Golgi complex component 2 (Low density, lipoprotein receptor defect C-complementing protein).]"	COG2 OR LDLC.	Homo sapiens (Human).
+2741	05-Dec-02	wehi	COG2_MOUSE	Q921L5; Q9CSQ1;	"[Conserved oligomeric Golgi complex component 2 (Low density, lipoprotein receptor defect C-complementing protein).]"	COG2 OR LDLC.	Mus musculus (Mouse).
+2742	05-Dec-02	wehi	CRAR_HUMAN	P48740; O95570; Q9UF09;	"[Complement-activating component of Ra-reactive factor precursor, (EC 3.4.21.-) (Ra-reactive factor serine protease p100) (RaRF), (Mannan-binding lectin serine protease 1) (Mannose-binding protein, associated serine protease) (MASP-1).]"	MASP1 OR CRARF OR CRARF1 OR PRSS5.	Homo sapiens (Human).
+2743	05-Dec-02	wehi	CRAR_MOUSE	P98064;	"[Complement-activating component of Ra-reactive factor precursor, (EC 3.4.21.-) (Ra-reactive factor serine protease p100) (RaRF), (Mannan-binding lectin serine protease 1).]"	MASP1 OR CRARF.	Mus musculus (Mouse).
+2621	05-Dec-02	wehi	HLY1_ECOLI	P09983;	"Hemolysin, chromosomal."	HLYA.	Escherichia coli.
+2622	05-Dec-02	wehi	HLYA_AERHY	Q44066;	Putative alpha-hemolysin.	HLYA.	Aeromonas hydrophila.
+2623	05-Dec-02	wehi	HLYA_ECOLI	P08715;	"Hemolysin, plasmid."	HLYA.	Escherichia coli.
+2624	05-Dec-02	wehi	HLYA_VIBCH	P09545; Q99290; Q9KMU9; Q56641; O08290; O08197;	Hemolysin precursor.	HLYA OR VCA0219.	Vibrio cholerae.
+2744	05-Dec-02	wehi	MA32_HUMAN	Q07021;	"[Complement component 1, Q subcomponent binding protein, mitochondrial, precursor (Glycoprotein gC1qBP) (GC1q-R protein) (Hyaluronan-binding, protein 1) (p32) (p33).]"	C1QBP OR GC1QBP OR HABP1 OR SF2P32.	Homo sapiens (Human).
+2745	05-Dec-02	wehi	MA32_MOUSE	O35658;	"[Complement component 1, Q subcomponent binding protein, mitochondrial, precursor (Glycoprotein gC1qBP) (GC1q-R protein).]"	C1QBP OR GC1QBP.	Mus musculus (Mouse).
+2746	05-Dec-02	wehi	MA32_RAT	O35796;	"[Complement component 1, Q subcomponent binding protein, mitochondrial, precursor (Glycoprotein GC1QBP) (GC1Q-R protein).]"	C1QBP OR GC1QBP.	Rattus norvegicus (Rat).
+2842	05-Dec-02	wehi	O08832	O08832;	"[Polypeptide N-acetylgalactosaminyltransferase (EC 2.4.1.41) (Protein-, UDP acetylgalactosaminyltransferase) (UDP-GalNAc:polypeptide, N-, acetylgalactosaminyltransferase) (GalNAc-T4).]"	GALNT4 OR PPGANTASE-T4.	Mus musculus (Mouse).
+2747	05-Dec-02	wehi	O19694	O19694;	MHC class III C2 complement component (Fragment).	C2.	Homo sapiens (Human).
+2748	05-Dec-02	wehi	O44344	O44344;	Complement component C3.	SP064.	Strongylocentrotus purpuratus (Purple sea urchin).
+2749	05-Dec-02	wehi	O46544	O46544;	Complement component C3 (Fragment).	C3.	Ovis aries (Sheep).
+2601	05-Dec-02	wehi	O52183	O52183;	DotD.	DOTD.	Legionella pneumophila.
+2599	05-Dec-02	wehi	O52184	O52184;	DotC.	DOTC.	Legionella pneumophila.
+2597	04-Dec-02	wehi	O52185	O52185;	DotB.	DOTB.	Legionella pneumophila.
+2604	05-Dec-02	wehi	O52186	O52186;	DotG.	DOTG.	Legionella pneumophila.
+2614	05-Dec-02	wehi	O53086	O53086;	LPHA protein (DOTK).	LPHA OR DOTK.	Legionella pneumophila.
+2661	05-Dec-02	wehi	O53087	O53087;	ICME protein.	ICME.	Legionella pneumophila.
+2628	05-Dec-02	wehi	O54395	O54395;	Haemolysin.	HLYA.	Aeromonas hydrophila.
+2615	05-Dec-02	wehi	O54524	O54524;	DOTL.	DOTL OR ICMO.	Legionella pneumophila.
+2619	05-Dec-02	wehi	O54567	O54567;	DOTO.	DOTO OR ICMB.	Legionella pneumophila.
+2663	05-Dec-02	wehi	O54568	O54568;	ICMR protein.	ICMR.	Legionella pneumophila.
+2612	05-Dec-02	wehi	O54585	O54585;	DOTJ.	DOTJ OR ICMM.	Legionella pneumophila.
+2617	05-Dec-02	wehi	O54588	O54588;	DOTM.	DOTM OR ICMP.	Legionella pneumophila.
+2606	05-Dec-02	wehi	O54589	O54589;	DOTH.	DOTH OR ICMK.	Legionella pneumophila.
+2618	05-Dec-02	wehi	O54599	O54599;	DOTN.	DOTN OR ICMJ.	Legionella pneumophila.
+2603	05-Dec-02	wehi	O54615	O54615;	DOTF.	DOTF OR ICMG.	Legionella pneumophila.
+2610	05-Dec-02	wehi	O54626	O54626;	DOTI.	DOTI OR ICML.	"[Legionella pneumophila, and, Legionella pneumophila serogroup 6.]"
+2662	05-Dec-02	wehi	O54635	O54635;	ICMQ protein.	ICMQ.	Legionella pneumophila.
+2664	05-Dec-02	wehi	O54636	O54636;	ICMS protein.	ICMS.	Legionella pneumophila.
+2660	05-Dec-02	wehi	O54641	O54641;	ICMD protein.	ICMD.	Legionella pneumophila.
+2602	05-Dec-02	wehi	O54653	O54653;	DOTE.	DOTE OR ICMC.	Legionella pneumophila.
+2665	05-Dec-02	wehi	O54658	O54658;	ICMT protein.	ICMT.	Legionella pneumophila.
+2750	05-Dec-02	wehi	O70350	O70350;	Complement factor C2 (Complement component 2) (WITHIN H-2S).	C2.	Mus musculus (Mouse).
+2751	05-Dec-02	wehi	O73756	O73756;	Complement component BfB (Fragment).	BFB OR BFB.	Brachydanio rerio (Zebrafish) (Danio rerio).
+2752	05-Dec-02	wehi	O73757	O73757;	Complement component C3A (Fragment).	C3A OR C3A.	Brachydanio rerio (Zebrafish) (Danio rerio).
+2753	05-Dec-02	wehi	O73758	O73758;	Complement component C3B (Fragment).	C3B OR C3B.	Brachydanio rerio (Zebrafish) (Danio rerio).
+2754	05-Dec-02	wehi	O73759	O73759;	Complement component C3C (Fragment).	C3C OR C3C.	Brachydanio rerio (Zebrafish) (Danio rerio).
+2755	05-Dec-02	wehi	O77782	O77782;	Complement component C1qB like protein (Fragment).		Oryctolagus cuniculus (Rabbit).
+2666	05-Dec-02	wehi	O87770	O87770;	IcmV.	ICMV.	Legionella pneumophila.
+2756	05-Dec-02	wehi	O93572	O93572;	Complement component C3 (Fragment).		Ambystoma mexicanum (Axolotl).
+2757	05-Dec-02	wehi	O97940	O97940;	Complement component 3 (Fragment).		Sus scrofa (Pig).
+2758	05-Dec-02	wehi	O97941	O97941;	Complement component 3 (Fragment).		Bos taurus (Bovine).
+2816	05-Dec-02	wehi	P2A4_YEAST	P32838;	Serine/threonine protein phosphatase PP2A-like PPG1 (EC 3.1.3.16).	PPG1 OR PPG OR YNR032W OR N3281.	Saccharomyces cerevisiae (Baker''s yeast).
+2759	05-Dec-02	wehi	P78445	P78445;	Complement fourth component gamma chain (Fragment).		Homo sapiens (Human).
+2817	05-Dec-02	wehi	PPGK_MYCLE	Q49988;	"[Polyphosphate glucokinase (EC 2.7.1.63) (Polyphosphate-glucose, phosphotransferase).]"	PPGK OR ML1023 OR U1764FG.	Mycobacterium leprae.
+2818	05-Dec-02	wehi	PPGK_MYCTU	Q59568; O07204;	"[Polyphosphate glucokinase (EC 2.7.1.63) (Polyphosphate-glucose, phosphotransferase).]"	PPGK OR RV2702 OR MT2776 OR MTCY05A6.23.	Mycobacterium tuberculosis.
+2819	05-Dec-02	wehi	PRTP_HUMAN	P10619; Q96KJ2; Q9BW68;	"[Lysosomal protective protein precursor (EC 3.4.16.5) (Cathepsin A), (Carboxypeptidase C).]"	PPGB.	Homo sapiens (Human).
+2820	05-Dec-02	wehi	PRTP_MOUSE	P16675;	"[Lysosomal protective protein precursor (EC 3.4.16.5) (Cathepsin A), (Carboxypeptidase C) (MO54).]"	PPGB.	Mus musculus (Mouse).
+2647	05-Dec-02	wehi	Q05565	Q05565;	Beta-hemolysin.	HLYA.	Pseudomonas paucimobilis (Sphingomonas paucimobilis).
+2760	05-Dec-02	wehi	Q14033	Q14033;	mRNA fragment encoding the complement component C4.		Homo sapiens (Human).
+2761	05-Dec-02	wehi	Q28563	Q28563;	Complement component C4 (Fragment).	C4.	Ovis aries (Sheep).
+2762	05-Dec-02	wehi	Q28564	Q28564;	Complement component C4 (Fragment).	C4.	Ovis aries (Sheep).
+2763	05-Dec-02	wehi	Q29410	Q29410;	Complement component C4 (Fragment).	C4 OR C4-2H.1.	Ovis aries (Sheep).
+2764	05-Dec-02	wehi	Q29439	Q29439;	Complement component C4 (Fragment).	C4.	Ovis aries (Sheep).
+2765	05-Dec-02	wehi	Q29528	Q29528;	Complement component receptor type 1 (Fragment).	CR1.	Papio hamadryas (Hamadryas baboon).
+2766	05-Dec-02	wehi	Q31144	Q31144;	MHC class III H2-C2 complement component mRNA (H-2-d) (Fragment).		Mus musculus (Mouse).
+2636	05-Dec-02	wehi	Q44223	Q44223;	HlyA (Fragment).	HLYA.	Anabaena sp. (strain PCC 7120).
+2671	05-Dec-02	wehi	Q45278	Q45278;	Aminotransferase and dihydrorhizobitoxine synthase.	RTXA.	Bradyrhizobium japonicum.
+2641	05-Dec-02	wehi	Q46716	Q46716;	Hemolysin A (HLYA).	HLYA OR EHEC-HLYA.	Escherichia coli O157:H7.
+2667	05-Dec-02	wehi	Q48800	Q48800;	IcmW.	ICMW.	Legionella pneumophila.
+2668	05-Dec-02	wehi	Q48801	Q48801;	IcmX.	ICMX.	Legionella pneumophila.
+2594	04-Dec-02	wehi	Q48804	Q48804;	DotA.	DOTA.	Legionella pneumophila.
+2767	05-Dec-02	wehi	Q61370	Q61370;	Complement component 3 (C3) (Fragment).		Mus musculus (Mouse).
+2768	05-Dec-02	wehi	Q62353	Q62353;	Complement component (C4) (Fragment).	C4.	Mus musculus (Mouse).
+2769	05-Dec-02	wehi	Q63078	Q63078;	C5a complement component protein (Fragment).	C5A.	Rattus norvegicus (Rat).
+2770	05-Dec-02	wehi	Q8K182	Q8K182;	"Similar to complement component 8, alpha polypeptide."		Mus musculus (Mouse).
+2771	05-Dec-02	wehi	Q8K1T2	Q8K1T2;	Complement C8 alpha component (Fragment).	C8ALPHA.	Mus musculus (Mouse).
+2772	05-Dec-02	wehi	Q8K1T7	Q8K1T7;	Complement C8 alpha component (Fragment).	C8ALPHA.	Mus musculus (Mouse).
+2652	05-Dec-02	wehi	Q8K6T0	Q8K6T0;	Putative hemolysin.	HLYA OR SPYM3_1153.	Streptococcus pyogenes (serotype M3).
+2608	05-Dec-02	wehi	Q8KMM5	Q8KMM5;	DotH protein.	DOTH.	Legionella pneumophila serogroup 6.
+2672	05-Dec-02	wehi	Q8KQ79	Q8KQ79;	RtxA (Fragment).	RTXA.	Vibrio cholerae.
+2836	05-Dec-02	wehi	Q8LPB0	Q8LPB0;	Glycine-rich RNA-binding protein.	PPGRP3.	Physcomitrella patens (Moss).
+2835	05-Dec-02	wehi	Q8LPB1	Q8LPB1;	Glycine-rich RNA-binding protein.	PPGRP2.	Physcomitrella patens (Moss).
+2834	05-Dec-02	wehi	Q8LPB2	Q8LPB2;	Glycine-rich RNA binding protein.	PPGRP1.	Physcomitrella patens (Moss).
+2773	05-Dec-02	wehi	Q8N6L6	Q8N6L6;	Similar to complement component 2.		Homo sapiens (Human).
+2700	05-Dec-02	wehi	Q8P5K4	Q8P5K4;	TolC protein.	TOLC OR XCC3336.	Xanthomonas campestris (pv. campestris).
+2699	05-Dec-02	wehi	Q8PGZ9	Q8PGZ9;	TolC protein.	TOLC OR XAC3463.	Xanthomonas axonopodis (pv. citri).
+2774	05-Dec-02	wehi	Q8R099	Q8R099;	"Similar to complement component 1, s subcomponent."		Mus musculus (Mouse).
+2588	04-Dec-02	wehi	Q8RJ03	Q8RJ03;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2579	04-Dec-02	wehi	Q8RJ04	Q8RJ04;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2575	04-Dec-02	wehi	Q8RJ35	Q8RJ35;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2582	04-Dec-02	wehi	Q8RMA2	Q8RMA2;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2585	04-Dec-02	wehi	Q8RMA3	Q8RMA3;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2568	04-Dec-02	wehi	Q8RMA4	Q8RMA4;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2584	04-Dec-02	wehi	Q8RMA5	Q8RMA5;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2570	04-Dec-02	wehi	Q8RMA6	Q8RMA6;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2595	04-Dec-02	wehi	Q8RMA7	Q8RMA7;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2586	04-Dec-02	wehi	Q8RMA8	Q8RMA8;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2581	04-Dec-02	wehi	Q8RMA9	Q8RMA9;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2578	04-Dec-02	wehi	Q8RMB0	Q8RMB0;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2574	04-Dec-02	wehi	Q8RMB1	Q8RMB1;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2593	04-Dec-02	wehi	Q8RMB2	Q8RMB2;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2573	04-Dec-02	wehi	Q8RMB3	Q8RMB3;	DotA (Fragment).	DOTA.	Legionella pneumophila.
+2605	05-Dec-02	wehi	Q8RTN2	Q8RTN2;	DotG (Fragment).	DOTG.	Legionella longbeachae.
+2607	05-Dec-02	wehi	Q8RTN3	Q8RTN3;	DotH.	DOTH.	Legionella longbeachae.
+2609	05-Dec-02	wehi	Q8RTN4	Q8RTN4;	DotI.	DOTI.	Legionella longbeachae.
+2611	05-Dec-02	wehi	Q8RTN5	Q8RTN5;	DotJ.	DOTJ.	Legionella longbeachae.
+2613	05-Dec-02	wehi	Q8RTN6	Q8RTN6;	DotK.	DOTK.	Legionella longbeachae.
+2616	05-Dec-02	wehi	Q8RTN7	Q8RTN7;	DotL (Fragment).	DOTL.	Legionella longbeachae.
+2775	05-Dec-02	wehi	Q8TCS7	Q8TCS7;	Complement component C7 (Fragment).	C7.	Homo sapiens (Human).
+2600	05-Dec-02	wehi	Q8TFD2	Q8TFD2;	Putative thioesterase.	DOTD.	Mycosphaerella pini (Dothistroma pini).
+2598	05-Dec-02	wehi	Q8TFD3	Q8TFD3;	Putative dothistromin transporter.	DOTC.	Mycosphaerella pini (Dothistroma pini).
+2596	04-Dec-02	wehi	Q8TFD4	Q8TFD4;	Putative oxidase.	DOTB.	Mycosphaerella pini (Dothistroma pini).
+2562	04-Dec-02	wehi	Q8TFD5	Q8TFD5;	Ketoreductase.	DOTA.	Mycosphaerella pini (Dothistroma pini).
+2776	05-Dec-02	wehi	Q8VBY4	Q8VBY4;	"[Hypothetical 77.4 kDa protein (Similar to complement component 1, s, subcomponent).]"		Mus musculus (Mouse).
+2777	05-Dec-02	wehi	Q8VC14	Q8VC14;	"Similar to complement component 8, beta polypeptide (Fragment)."	4930439B20RIK.	Mus musculus (Mouse).
+2840	05-Dec-02	wehi	Q8VEF6	Q8VEF6;	Protective protein for beta-galactosidase.	PPGB.	Mus musculus (Mouse).
+2691	05-Dec-02	wehi	Q8VLQ0	Q8VLQ0;	TolC protein precursor.	TOLC.	Enterobacter aerogenes (Aerobacter aerogenes).
+2633	05-Dec-02	wehi	Q8VQ38	Q8VQ38;	HlyA (Fragment).	HLYA.	Citrobacter rodentium.
+2778	05-Dec-02	wehi	Q8WPD7	Q8WPD7;	Complement component C3 (Fragment).	C3-2.	Ciona intestinalis.
+2779	05-Dec-02	wehi	Q8WPD8	Q8WPD8;	Complement component C3.	C3-1.	Ciona intestinalis.
+2696	05-Dec-02	wehi	Q8XBP7	Q8XBP7;	"[Outer membrane channel, specific tolerance to colicin E1, segregation, of daughter chromosomes (Outer membrane channel TolC).]"	TOLC OR Z4392 OR ECS3923.	Escherichia coli O157:H7.
+2650	05-Dec-02	wehi	Q8XPD3	Q8XPD3;	Probable hemolysin-related protein.	HLYA OR CPE0030.	Clostridium perfringens.
+2695	05-Dec-02	wehi	Q8Z3N8	Q8Z3N8;	Outer membrane protein TolC.	TOLC OR STY3364.	Salmonella typhi.
+2694	05-Dec-02	wehi	Q8ZLZ4	Q8ZLZ4;	"[Outer membrane channel, specific tolerance to colicin E1, segregation, of daughter chromosomes, role in organic solvent tolerance.]"	TOLC OR STM3186.	Salmonella typhimurium.
+2780	05-Dec-02	wehi	Q90WN8	Q90WN8;	Putative complement component c3 (Fragment).		Trachemys scripta elegans.
+2781	05-Dec-02	wehi	Q90WT5	Q90WT5;	Putative complement component c3 (Fragment).	C3.	Crocodylus niloticus (Nile crocodile) (African crocodile).
+2782	05-Dec-02	wehi	Q90XS7	Q90XS7;	Complement component C5 (Fragment).		Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).
+2783	05-Dec-02	wehi	Q91588	Q91588;	Complement component C3 (Fragment).		Xenopus laevis/gilli.
+2784	05-Dec-02	wehi	Q91741	Q91741;	Fourth component of complement.		Xenopus laevis (African clawed frog).
+2785	05-Dec-02	wehi	Q91X48	Q91X48;	Complement component 4 binding protein.	C4BP.	Mus musculus (Mouse).
+2786	05-Dec-02	wehi	Q91X70	Q91X70;	Similar to complement component 6.	C6.	Mus musculus (Mouse).
+2693	05-Dec-02	wehi	Q92IW4	Q92IW4;	Outer membrane protein tolC.	TOLC OR RC0306.	Rickettsia conorii.
+2698	05-Dec-02	wehi	Q92Q38	Q92Q38;	Putative outer membrane secretion protein.	TOLC OR R01514 OR SMC02082.	Rhizobium meliloti (Sinorhizobium meliloti).
+2673	05-Dec-02	wehi	Q92UV9	Q92UV9;	"[Putative 2-aminoethylphosphonate: pyruvate aminotransferase,, similar to rtxA AAA03070 protein.]"	RB0977 OR SMB21537.	Rhizobium meliloti (Sinorhizobium meliloti).
+2576	04-Dec-02	wehi	Q93A13	Q93A13;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2583	04-Dec-02	wehi	Q93A14	Q93A14;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2564	04-Dec-02	wehi	Q93A15	Q93A15;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2590	04-Dec-02	wehi	Q93A16	Q93A16;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2580	04-Dec-02	wehi	Q93A17	Q93A17;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2566	04-Dec-02	wehi	Q93A18	Q93A18;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2563	04-Dec-02	wehi	Q93A19	Q93A19;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2591	04-Dec-02	wehi	Q93A20	Q93A20;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2589	04-Dec-02	wehi	Q93A21	Q93A21;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2569	04-Dec-02	wehi	Q93A22	Q93A22;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2567	04-Dec-02	wehi	Q93A23	Q93A23;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2571	04-Dec-02	wehi	Q93A24	Q93A24;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2689	05-Dec-02	wehi	Q93AG1	Q93AG1;	Outer membrane protein.	TOLC.	Erwinia chrysanthemi.
+2683	05-Dec-02	wehi	Q93HS4	Q93HS4;	RtxC.	RTXC.	Bradyrhizobium elkanii.
+2674	05-Dec-02	wehi	Q93HS5	Q93HS5;	RtxA.	RTXA.	Bradyrhizobium elkanii.
+2831	05-Dec-02	wehi	Q948Q3	Q948Q3;	GH3-like protein 1.	PPGH3L1.	Physcomitrella patens (Moss).
+2832	05-Dec-02	wehi	Q94KI6	Q94KI6;	Polygalacturonase (Fragment).	PPG1.	Pisum sativum (Garden pea).
+2787	05-Dec-02	wehi	Q969A3	Q969A3;	Complement component C6.	AMPHIC6.	Branchiostoma belcheri (Amphoxius).
+2788	05-Dec-02	wehi	Q969A4	Q969A4;	Complement component C3.	AMPHIC3.	Branchiostoma belcheri (Amphoxius).
+2789	05-Dec-02	wehi	Q96EG2	Q96EG2;	Complement component 4A.		Homo sapiens (Human).
+2790	05-Dec-02	wehi	Q96QN2	Q96QN2;	"Complement component 1, s subcomponent."		Homo sapiens (Human).
+2821	05-Dec-02	wehi	Q96UP0	Q96UP0;	Pheromone ppg-1-like protein (Pheromone precursor).	PPG1.	Neurospora crassa.
+2791	05-Dec-02	wehi	Q98977	Q98977;	Complement component C3-3 (Fragment).		Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).
+2792	05-Dec-02	wehi	Q98TK6	Q98TK6;	Complement component C8 beta (Fragment).	C8B.	Platichthys flesus (European flounder).
+2793	05-Dec-02	wehi	Q98TN9	Q98TN9;	Complement component C3 (Fragment).	CO3.	Platichthys flesus (European flounder).
+2794	05-Dec-02	wehi	Q98TS6	Q98TS6;	Complement component C3.	C3.	Anarhichas minor (Arctic spotted wolffish).
+2795	05-Dec-02	wehi	Q99KI6	Q99KI6;	"Complement component 1, r subcomponent."	C1R.	Mus musculus (Mouse).
+2649	05-Dec-02	wehi	Q99YX6	Q99YX6;	Putative hemolysin.	HLYA1 OR SPY1497.	Streptococcus pyogenes.
+2839	05-Dec-02	wehi	Q9ADE8	Q9ADE8;	Polyphosphate glucokinase.	PPGK OR SCO5059 OR SCBAC20F6.02.	Streptomyces coelicolor.
+2690	05-Dec-02	wehi	Q9AEG0	Q9AEG0;	TolC protein precursor.	TOLC.	Enterobacter aerogenes (Aerobacter aerogenes).
+2838	05-Dec-02	wehi	Q9AGV8	Q9AGV8;	Polyphosphate glucokinase.	PPGK.	Corynebacterium ammoniagenes (Brevibacterium ammoniagenes).
+2837	05-Dec-02	wehi	Q9ANT8	Q9ANT8;	Polyphosphate glucokinase-like protein (Fragment).	PPGK.	Brevibacterium flavum.
+2833	05-Dec-02	wehi	Q9AVC3	Q9AVC3;	Putative alpha-glucosidase.	PPGLU.	Physcomitrella patens subsp. patens.
+2830	05-Dec-02	wehi	Q9BKV6	Q9BKV6;	Proteophosphoglycan 3 (Fragment).	PPG3.	Leishmania major.
+2825	05-Dec-02	wehi	Q9BKV7	Q9BKV7;	Ppg3.	PPG3.	Leishmania major.
+2824	05-Dec-02	wehi	Q9BR08	Q9BR08;	"[DJ337O18.2.2 (Lysosomal protective protein (EC 3.4.16.5, cathepsin A,, carboxypeptidase C) (Isoform 2)).]"	PPGB.	Homo sapiens (Human).
+2796	05-Dec-02	wehi	Q9BS25	Q9BS25;	"Complement component 4-binding protein, beta."		Homo sapiens (Human).
+2797	05-Dec-02	wehi	Q9CSV8	Q9CSV8;	"[Complement component 1, q subcomponent binding protein, (Fragment).]"	C1QBP.	Mus musculus (Mouse).
+2798	05-Dec-02	wehi	Q9CTX0	Q9CTX0;	"Complement component 1, r subcomponent (Fragment)."	C1R.	Mus musculus (Mouse).
+2841	05-Dec-02	wehi	Q9D2D1	Q9D2D1;	Protective protein for beta-galactosidase.	PPGB.	Mus musculus (Mouse).
+2799	05-Dec-02	wehi	Q9DCM6	Q9DCM6;	"Complement component 1, q subcomponent, alpha polypeptide."	C1QA.	Mus musculus (Mouse).
+2800	05-Dec-02	wehi	Q9DDV9	Q9DDV9;	Complement component C3-4 (Fragment).		Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).
+2801	05-Dec-02	wehi	Q9DFF4	Q9DFF4;	Complement component 7 (Fragment).		Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).
+2802	05-Dec-02	wehi	Q9ERF0	Q9ERF0;	Complement component 7 (Fragment).		Rattus norvegicus (Rat).
+2632	05-Dec-02	wehi	Q9F6Y3	Q9F6Y3;	HlyA.	HLYA.	Chloroflexus aurantiacus.
+2803	05-Dec-02	wehi	Q9GKP1	Q9GKP1;	Complement component C3.	C3.	Sus scrofa (Pig).
+2804	05-Dec-02	wehi	Q9GLE6	Q9GLE6;	Complement component C1s (Fragment).	C1S.	Sus scrofa (Pig).
+2692	05-Dec-02	wehi	Q9JRH0	Q9JRH0;	"[Putative periplasmic type I secretion system protein (Putative outer, membrane protein).]"	NATC OR NMA1994 OR TOLC.	"[Neisseria meningitidis (serogroup A), and, Neisseria meningitidis.]"
+2675	05-Dec-02	wehi	Q9KS12	Q9KS12;	RTX toxin RtxA.	VC1451.	Vibrio cholerae.
+2646	05-Dec-02	wehi	Q9L5B9	Q9L5B9;	Listeriolysin O.	HLYA.	Listeria monocytogenes.
+2572	04-Dec-02	wehi	Q9LAU3	Q9LAU3;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2577	04-Dec-02	wehi	Q9LAU4	Q9LAU4;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2592	04-Dec-02	wehi	Q9LAU5	Q9LAU5;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2565	04-Dec-02	wehi	Q9LAU6	Q9LAU6;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2587	04-Dec-02	wehi	Q9LAU7	Q9LAU7;	Defect in organelle trafficking protein (Fragment).	DOTA.	Legionella pneumophila.
+2823	05-Dec-02	wehi	Q9P3Y6	Q9P3Y6;	Pheromone (Fragment).	PPG1.	Sordaria macrospora.
+2822	05-Dec-02	wehi	Q9P3Y7	Q9P3Y7;	Pheromone precusor gene (Fragment).	PPG2.	Sordaria macrospora.
+2648	05-Dec-02	wehi	Q9PQ54	Q9PQ54;	Hemolysin.	HLYA OR UU436.	Ureaplasma parvum (Ureaplasma urealyticum biotype 1).
+2805	05-Dec-02	wehi	Q9PTY1	Q9PTY1;	Complement component C3.		Paralichthys olivaceus (Flounder).
+2806	05-Dec-02	wehi	Q9PTY3	Q9PTY3;	Complement component C7.		Paralichthys olivaceus (Flounder).
+2807	05-Dec-02	wehi	Q9PVW6	Q9PVW6;	Complement component C9.		Paralichthys olivaceus (Flounder).
+2808	05-Dec-02	wehi	Q9QV57	Q9QV57;	"[Complement component C3-derived neutrophil chemotactic factor-2, (Fragment).]"		Rattus norvegicus (Rat).
+2809	05-Dec-02	wehi	Q9QV58	Q9QV58;	"[Complement component C3-derived neutrophil chemotactic factor-1, (Fragment).]"		Rattus norvegicus (Rat).
+2810	05-Dec-02	wehi	Q9QWR4	Q9QWR4;	Complement component C4 (Fragment).	C4.	Mus musculus (Mouse).
+2811	05-Dec-02	wehi	Q9QXT7	Q9QXT7;	Complement component 6.	C6.	Mus musculus (Mouse).
+2627	05-Dec-02	wehi	Q9R3S5	Q9R3S5;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2637	05-Dec-02	wehi	Q9R3T2	Q9R3T2;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2643	05-Dec-02	wehi	Q9R419	Q9R419;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2631	05-Dec-02	wehi	Q9RML0	Q9RML0;	Hemolysin.	HLYA.	Vibrio cholerae.
+2630	05-Dec-02	wehi	Q9S4R8	Q9S4R8;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2644	05-Dec-02	wehi	Q9S4R9	Q9S4R9;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2635	05-Dec-02	wehi	Q9S4S0	Q9S4S0;	Truncated hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2626	05-Dec-02	wehi	Q9S4S1	Q9S4S1;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2639	05-Dec-02	wehi	Q9S4S2	Q9S4S2;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2638	05-Dec-02	wehi	Q9S4S3	Q9S4S3;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2634	05-Dec-02	wehi	Q9S4S4	Q9S4S4;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2640	05-Dec-02	wehi	Q9S4S5	Q9S4S5;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2645	05-Dec-02	wehi	Q9S4S6	Q9S4S6;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2629	05-Dec-02	wehi	Q9S4S7	Q9S4S7;	Truncated hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2812	05-Dec-02	wehi	Q9TSW9	Q9TSW9;	Complement component 5 (Fragment).	C5.	Canis familiaris (Dog).
+2826	05-Dec-02	wehi	Q9TW13	Q9TW13;	PROTEOPHOSPHOGLYCAN.	PPG2.	Leishmania mexicana.
+2829	05-Dec-02	wehi	Q9U1G0	Q9U1G0;	Proteophosphoglycan.	PPG2.	Leishmania mexicana.
+2813	05-Dec-02	wehi	Q9UGI4	Q9UGI4;	Complement component 9 precursor (Fragment).	C9.	Homo sapiens (Human).
+2814	05-Dec-02	wehi	Q9UM89	Q9UM89;	"[ZA (Region between exons 35 and 36 of the complement component C4, ge).]"	ZA.	Homo sapiens (Human).
+2676	05-Dec-02	wehi	Q9X4W2	Q9X4W2;	RtxA protein.	RTXA.	Vibrio cholerae.
+2679	05-Dec-02	wehi	Q9X4W4	Q9X4W4;	RtxB protein.	RTXB.	Vibrio cholerae.
+2685	05-Dec-02	wehi	Q9X4W5	Q9X4W5;	RTXD protein (RTX toxin transporter).	RTXD OR VC1447.	Vibrio cholerae.
+2697	05-Dec-02	wehi	Q9X581	Q9X581;	"NATC (TOLC protein) (Secretion protein, putative)."	NATC OR TOLC OR NMB1737.	"[Neisseria meningitidis, and, Neisseria meningitidis (serogroup B).]"
+2642	05-Dec-02	wehi	Q9XCZ9	Q9XCZ9;	Hemolysin (Fragment).	HLYA.	Vibrio cholerae.
+2677	05-Dec-02	wehi	Q9XDI1	Q9XDI1;	Structural toxin protein RtxA.	RTXA.	Legionella pneumophila.
+2827	05-Dec-02	wehi	Q9Y075	Q9Y075;	Proteophosphoglycan (Fragment).	PPG1.	Leishmania major.
+2828	05-Dec-02	wehi	Q9Y076	Q9Y076;	Proteophosphoglycan precursor (Fragment).	PPG1.	Leishmania major.
+2651	05-Dec-02	wehi	Q9ZM83	Q9ZM83;	Putative hemolysin.	HLYA OR JHP0339.	Helicobacter pylori J99 (Campylobacter pylori J99).
+2669	05-Dec-02	wehi	RT31_ACTPL	P55130;	"[RTX-III toxin determinant A from serotype 2 (APX-IIIA) (Cytolysin, IIIA) (CLY-IIIA).]"	APXIIIA OR CLYIIIA OR RTXA OR PTXA.	Actinobacillus pleuropneumoniae (Haemophilus pleuropneumoniae).
+2670	05-Dec-02	wehi	RT32_ACTPL	P55131;	"[RTX-III toxin determinant A from serotype 8 (APX-IIIA) (Cytolysin, IIIA) (CLY-IIIA).]"	APXIIIA OR CLYIIIA OR RTXA OR PTXA.	Actinobacillus pleuropneumoniae (Haemophilus pleuropneumoniae).
+2678	05-Dec-02	wehi	RT3B_ACTPL	Q04473;	"[RTX-III toxin determinant B (Toxin RTX-III secretion ATP-binding, protein) (APX-IIIB) (Cytolysin IIIB) (CLY-IIIB).]"	APXIIIB OR CLYIIIB OR RTXB.	Actinobacillus pleuropneumoniae (Haemophilus pleuropneumoniae).
+2681	05-Dec-02	wehi	RT3C_ACTPL	Q04474;	"[RTX-III toxin-activating lysine-acyltransferase apxIIC (EC 2.3.1.-), (RTX-III toxin determinant C) (APX-IIIC) (Cytolysin IIIC) (CLY-IIIC), (Toxin RTX-III activating protein C).]"	APXIIIC OR CLYIIIC OR RTXC.	Actinobacillus pleuropneumoniae (Haemophilus pleuropneumoniae).
+2684	05-Dec-02	wehi	RT3D_ACTPL	Q08633;	"[RTX-III toxin determinant D (APX-IIID) (Cytolysin IIID) (CLY-IIID), (Toxin RTX-III secretion protein D).]"	APXIIID OR CLYIIID OR RTXD.	Actinobacillus pleuropneumoniae (Haemophilus pleuropneumoniae).
+2682	05-Dec-02	wehi	RTXC_VIBCH	Q9X4W3; Q9JQ03;	Cytolysin-activating lysine-acyltransferase rtxC (EC 2.3.1.-).	RTXC OR VC1450.	Vibrio cholerae.
+2625	05-Dec-02	wehi	TACY_LISMO	P13128; Q48747; Q57096; Q57206;	Listeriolysin O precursor (Thiol-activated cytolysin).	HLY OR LISA OR HLYA OR LMO0202.	Listeria monocytogenes.
+2686	05-Dec-02	wehi	TOLC_ECOLI	P02930;	Outer membrane protein tolC precursor.	TOLC OR MTCB OR MUKA OR REFI OR B3035.	Escherichia coli.
+2687	05-Dec-02	wehi	TOLC_SALEN	Q54001;	Outer membrane protein tolC precursor.	TOLC.	Salmonella enteritidis.
+2688	05-Dec-02	wehi	TOLC_VIBCH	Q9K2Y1;	Outer membrane protein tolC precursor.	TOLC OR VC2436.	Vibrio cholerae.
