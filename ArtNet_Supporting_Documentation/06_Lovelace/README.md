@@ -1,4 +1,4 @@
 # Lovelace
 A revision/background paper covering Programming Languages.
 
-Julia code examples can be found in the Codes folder. There are also links to GitHub repositories of example codes of different programming languages.
+Java and Julia code examples can be found in the Codes folder. There are also links to GitHub repositories of example codes of different programming languages.
